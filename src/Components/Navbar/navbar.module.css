@@ -1,0 +1,133 @@
+.navbarDesktop {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  color: #f0f3f5;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  z-index: 1;
+  width: 100%;
+}
+
+.options {
+  padding-right:5rem;
+  display: flex;
+  gap: 10px;
+  justify-content: right;
+  align-items: center;
+}
+.options a {
+  text-decoration: none;
+  color: white;
+}
+
+.options p:hover {
+  color: #FDCF41;
+  cursor: pointer;
+}
+
+.buttonCV {
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: #fdcf41;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonCV:hover {
+  color: black;
+}
+
+.switch {
+  display: flex;
+}
+.switch input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.switch label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 50px;
+  height: 20px;
+  background: grey;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+.switch label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  background: #fdcf41;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+.switch input:checked + label {
+  background: grey;
+}
+
+.switch input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+.switch label:active:after {
+  width: 30px;
+}
+
+.navbarMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 770px) {
+  .navbarDesktop {
+    display: none;
+  }
+  
+  .navbarMobile {
+    color: white;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    flex-direction: column;
+    background-color: #25374681;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+  }
+  .options {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-block: 1rem;
+   
+  }
+  .buttonMenus {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    margin: 1rem;
+  }
+  .optionsActive {
+    display: none;
+     justify-content: center;
+  }
+}
+
+

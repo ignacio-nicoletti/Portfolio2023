@@ -1,0 +1,18 @@
+.contain{
+  text-align: center;
+  margin-top: 5%;
+  color:#fdcf41;
+}
+.title{
+  font-size: 2rem;
+  margin:3rem;
+}
+
+.projects {
+  color: white;
+  /* padding-inline: 2%; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:15px;
+}

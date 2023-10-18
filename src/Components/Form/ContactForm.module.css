@@ -1,0 +1,100 @@
+.contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+}
+.textForm {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textForm a {
+  text-decoration: none;
+  color: black;
+}
+
+.contacts {
+  background-color: #fdcf41;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem;
+  border-radius: 10px;
+  width: fit-content;
+  border:3px solid #fdcf41
+}
+
+.contacts:hover {
+  color: white;
+  border:3px solid black
+}
+.contacts img {
+  width: 50px;
+}
+
+.contain form {
+  display: flex;
+  flex-direction: column;
+
+}
+.contain input,
+textarea,
+button {
+  background-color: #fdcf41;
+  border-radius: 10px;
+}
+
+.contain input,
+textarea {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.contain label {
+  /* padding-left: 1rem; */
+  font-size: rem;
+}
+.contain button {
+  margin: 3rem;
+  font-size: 1.5rem;
+  border:3px solid black
+}
+
+.contain button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 770px) {
+  .contain{
+    margin-inline: 1rem;
+
+  }
+  .contain form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .contain form h2 {
+    text-align: center;
+  }
+
+  .contain input,
+  textarea {
+    margin-inline: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+  .contain label {
+    padding-left: 1rem;
+    font-size: 2rem;
+  }
+}
