@@ -34,7 +34,7 @@ const DetailProject = ({
         <div className={style.TitleAndVideo}>
           <h2>{title}</h2>
           {videoProject !== ''
-            ? <video src={videoProject} controls autoPlay />
+            ? <video src={videoProject} controls />
             : <video src={loading} autoPlay Loop/>}
         </div>
 

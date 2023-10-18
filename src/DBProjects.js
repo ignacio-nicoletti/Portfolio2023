@@ -196,7 +196,7 @@ const DBProyect = [
       "Se realizó un proyecto grupal utilizando Processing y Tuio, programa que mediante un patrón trackea su posición entre ciertos parámetros. El juego consiste en derrotar una hydra de 3 cabezas, cubriendo/esquivando sus ataques y disparando flechas.",
     PortadaProject: tecno2,
     MediaProject: [],
-    videoProject: "",
+    videoProject: "https://res.cloudinary.com/dbu2biawj/video/upload/v1697640815/portfolio/tecno2/cbh9psaj0v11bobqanwi.mp4",
     tecnologies: ["•Processing", "•Java", "•Tuio", "•POO"],
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/tecnologia-2FBA",
