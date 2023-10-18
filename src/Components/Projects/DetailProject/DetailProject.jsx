@@ -1,7 +1,7 @@
 import style from './DetailProject.module.css';
 import githubIcon from '../../../Assets/github-icon.svg';
 import deployIcon from '../../../Assets/external-link-icon.svg';
-import {useState} from 'react';
+
 import loading from '../../../Assets/Imagesprojects/loading.mp4';
 const DetailProject = ({
   title,
@@ -14,13 +14,7 @@ const DetailProject = ({
   MediaProject,
   videoProject,
 }) => {
-  const images = [
-    MediaProject[0],
-    MediaProject[1],
-    MediaProject[2],
-    MediaProject[3],
-  ];
-  console.log (videoProject);
+
   return (
     <div className={style.contain}>
       <div className={style.card}>
