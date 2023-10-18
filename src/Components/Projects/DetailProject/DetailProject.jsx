@@ -35,7 +35,7 @@ const DetailProject = ({
           <h2>{title}</h2>
           {videoProject !== ''
             ? <video src={videoProject} controls />
-            : <video src={loading} autoPlay Loop/>}
+            : <video src={loading}  Loop/>}
         </div>
 
         <div className={style.carrousel}>

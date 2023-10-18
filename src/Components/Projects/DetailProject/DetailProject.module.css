@@ -97,7 +97,7 @@
 }
 .TitleAndVideo h2 {
   font-size: 3rem;
-  margin: 0 1rem 
+  margin: 0 1rem;
 }
 
 .TitleAndVideo video {
@@ -147,6 +147,10 @@
 }
 
 @media only screen and (max-width: 770px) {
+  .contain {
+    z-index: 1;
+  }
+
   .TitleAndVideo h2 {
     /* display: none; */
     font-size: 2rem;
@@ -204,7 +208,6 @@
     justify-content: center;
     width: 100%;
     gap: 10px;
-  
   }
 
   .icondeploy {

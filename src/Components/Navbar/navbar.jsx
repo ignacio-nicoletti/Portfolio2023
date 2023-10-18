@@ -15,14 +15,21 @@ const Navbar = () => {
 
         <div>Ignacio Nicoletti</div>
         <div className={style.options}>
-          <div className={style.switch}>
-
+          <div className={style.languageSwitch}>
             <input
               type="checkbox"
-              id="switch"
+              className={style.languageSwitchCheckbox}
+              id="toggle"
               onClick={() => setEnglish (!english)}
             />
-            <label for="switch">Toggle</label>
+            <label className={style.languageSwitchLabel} htmlFor="toggle">
+              <span className={style.languageSwitchInner} />
+              <span className={style.languageSwitchSwitch} />
+            </label>
+            <div className={style.languageText}>
+              <span className={style.languageTextEn}>EN</span>
+              <span className={style.languageTextEs}>ES</span>
+            </div>
           </div>
 
           <a href="/">
@@ -56,14 +63,21 @@ const Navbar = () => {
             : <img src={menuClose} alt="" onClick={() => setMenu (true)} />}
         </div>
         <div className={menu ? style.optionsActive : style.options}>
-          <div className={style.switch}>
 
+          <div className={style.languageSwitch}>
             <input
               type="checkbox"
-              id="switch"
-              onClick={() => setEnglish (!english)}
+              className={style.languageSwitchCheckbox}
+              id="toggle"
             />
-            <label for="switch">Toggle</label>
+            <label className={style.languageSwitchLabel} htmlFor="toggle">
+              <span className={style.languageSwitchInner} />
+              <span className={style.languageSwitchSwitch} />
+            </label>
+            <div className={style.languageText}>
+              <span className={style.languageTextEn}>EN</span>
+              <span className={style.languageTextEs}>ES</span>
+            </div>
           </div>
 
           <a href="/">
