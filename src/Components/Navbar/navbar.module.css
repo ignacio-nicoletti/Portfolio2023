@@ -51,8 +51,6 @@
   display: none;
 }
 
-/* styles.module.css */
-
 .languageSwitch {
   display: flex;
   align-items: center;
@@ -63,7 +61,7 @@
   display: inline-block;
   width: 60px;
   height: 15px;
-  background-color: #ccc;
+  background-color: white;
   border-radius: 15px;
 }
 
@@ -71,7 +69,7 @@
   position: absolute;
   width: 50%;
   height: 100%;
-  background-color: #fff;
+  background-color: #fdcf41;
   border-radius: 15px;
   transition: transform 0.3s ease-in-out;
 }
@@ -91,10 +89,6 @@
 
 .languageSwitchCheckbox:checked + .languageSwitchLabel .languageSwitchInner {
   transform: translateX(100%);
-}
-
-.languageSwitchCheckbox:checked + .languageSwitchLabel .languageSwitchSwitch {
-  transform: translateX(30px);
 }
 
 .languageText {
@@ -119,6 +113,7 @@
 .languageSwitchCheckbox:checked ~ .languageText .languageTextEs {
   display: none;
 }
+
 @media only screen and (max-width: 770px) {
   .navbarDesktop {
     display: none;
@@ -127,7 +122,7 @@
   .navbarMobile {
     color: white;
     display: flex;
-    position: sticky;
+    position: fixed;
     width: 100%;
     flex-direction: column;
     background-color: #25374681;
@@ -152,22 +147,65 @@
     justify-content: center;
   }
 
-  .languageSwitchLabel {
-    width: 40px;
-    height: 15px;
-    /* Ajustar los estilos para dispositivos móviles según sea necesario */
+  .switch {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
   }
 
-  .languageText span {
-    padding: 3px;
-    /* Ajustar los estilos para los elementos span en dispositivos móviles */
-  }
-  .languageSwitchCheckbox {
-    /* display: inline; */
+  .switch input[type="checkbox"] {
     height: 0;
     width: 0;
     visibility: hidden;
+    outline: none;
   }
 
-  
+  .switch label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 55px;
+    height: 15px;
+    background: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    position: relative;
+    /* margin-left: auto; */
+    right: 10px;
+  }
+
+  .switch label {
+    position: relative;
+  }
+
+  .switch p {
+    font-weight: bolder;
+  }
+
+  .switch label:after {
+    content: "";
+    background: #fdcf41;
+    width: 20px;
+    height: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: cubic-bezier(0.68, -0.55, 0.27, 01.55) 320ms;
+  }
+
+  .switch input:checked + label:after {
+    left: calc(100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
 }

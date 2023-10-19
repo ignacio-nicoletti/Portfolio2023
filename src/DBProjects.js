@@ -8,7 +8,6 @@ import Nails from "./Assets/Imagesprojects/nailsturn.png";
 import AdvancePortada from "./Assets/Imagesprojects/ecomerce.png";
 import proceso from "./Assets/Imagesprojects/proceso.png";
 import tecno2 from "./Assets/Imagesprojects/tecno2.png";
-import loading from "./Assets/Imagesprojects/loading.mp4"
 // -------------------------Portadas------------------
 
 

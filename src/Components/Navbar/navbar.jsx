@@ -63,23 +63,18 @@ const Navbar = () => {
             : <img src={menuClose} alt="" onClick={() => setMenu (true)} />}
         </div>
         <div className={menu ? style.optionsActive : style.options}>
-
-          <div className={style.languageSwitch}>
+          <div className={style.switch}>
             <input
+              onClick={() => setEnglish (!english)}
+              className={style.container_toggle}
               type="checkbox"
-              className={style.languageSwitchCheckbox}
-              id="toggle"
+              id="switch"
+              name="mode"
             />
-            <label className={style.languageSwitchLabel} htmlFor="toggle">
-              <span className={style.languageSwitchInner} />
-              <span className={style.languageSwitchSwitch} />
-            </label>
-            <div className={style.languageText}>
-              <span className={style.languageTextEn}>EN</span>
-              <span className={style.languageTextEs}>ES</span>
-            </div>
-          </div>
+            <label htmlFor="switch" />
+            {english === true ? <p>EN</p> : <p>ES</p>}
 
+          </div>
           <a href="/">
             <p>Inicio </p>
           </a>

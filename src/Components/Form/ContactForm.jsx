@@ -1,37 +1,43 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
+import emailjs from '@emailjs/browser';
 import style from './ContactForm.module.css';
 import WhatsApp from '../../Assets/WhatsApp.svg2.png';
-import emailjs from '@emailjs/browser';
-
 export const ContactForm = () => {
   const [nombre, setNombre] = useState ('');
   const [email, setEmail] = useState ('');
-  const [message, setMessage] = useState (null);
+  const [message, setMessage] = useState ();
 
-  let templateParams = {
+  var templateParams = {
     user_name: nombre,
-    user_email: email,
     user_message: message,
+    user_email: email,
   };
 
-  const handleSubmit = e => {
+  const sendEmail = e => {
     e.preventDefault ();
-
-    emailjs
-      .sendForm (
-        'service_ktcuaoa',
-        'template_86g30y2',
-        'form',
-        'lG-IY0qMT-QWXTTAt'
-      )
-      .then (
-        result => {
-          console.log (result.text);
-        },
-        error => {
-          console.log (error.text);
+    if (
+      templateParams.user_name !== '' &&
+      templateParams.user_message !== '' &&
+      templateParams.user_email !== ''
+    ) {
+      emailjs
+        .send (
+          'service_ktcuaoa',
+          'template_86g30y2',
+          {templateParams},
+          'lG-IY0qMT-QWXTTAt'
+        )
+        .then (
+          function (response) {
+            console.log ('SUCCESS!', response.status, response.text);
+          },
+          function (error) {
+            console.log ('FAILED...', error);
+          }
+        );}else{
+          console.log("error al enviar ");
         }
-      );
+    
   };
 
   return (
@@ -54,26 +60,31 @@ export const ContactForm = () => {
           </div>
         </a>
       </div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={sendEmail}>
         <h2>Completa el formulario para enviarme un correo.</h2>
-        <label htmlFor="toggle">Nombre</label>
+        <label>Nombre</label>
         <input
           type="text"
           value={nombre}
-          name="user_name"
+          name="nombre"
           placeholder="Nombre y apellido "
           onChange={e => setNombre (e.target.value)}
-        />
-        <label htmlFor="toggle">Email</label>
+        /> 
+         <label>Email</label>
         <input
           type="email"
           value={email}
-          name="user_email"
+          name="user_emai"
           placeholder="email"
           onChange={e => setEmail (e.target.value)}
+        /> 
+        <label>Mensaje</label>
+        <input
+          name="message"
+          value={message}
+          onChange={e => setMessage (e.target.value)}
         />
-        <label htmlFor="toggle">Mensaje</label>
-        <textarea name="message" />
+        <input type="submit" id="button" value="Send Email" ></input>
         <button type="submit" value="Enviar">
           Enviar
         </button>
