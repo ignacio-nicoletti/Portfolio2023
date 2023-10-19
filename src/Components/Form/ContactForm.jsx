@@ -84,7 +84,6 @@ export const ContactForm = () => {
           value={message}
           onChange={e => setMessage (e.target.value)}
         />
-        <input type="submit" id="button" value="Send Email" ></input>
         <button type="submit" value="Enviar">
           Enviar
         </button>
