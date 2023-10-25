@@ -34,10 +34,10 @@ export const ContactForm = () => {
           function (error) {
             console.log ('FAILED...', error);
           }
-        );}else{
-          console.log("error al enviar ");
-        }
-    
+        );
+    } else {
+      console.log ('error al enviar ');
+    }
   };
 
   return (
@@ -67,17 +67,15 @@ export const ContactForm = () => {
           type="text"
           value={nombre}
           name="nombre"
-          placeholder="Nombre y apellido "
           onChange={e => setNombre (e.target.value)}
-        /> 
-         <label>Email</label>
+        />
+        <label>Email</label>
         <input
           type="email"
           value={email}
           name="user_emai"
-          placeholder="email"
           onChange={e => setEmail (e.target.value)}
-        /> 
+        />
         <label>Mensaje</label>
         <input
           name="message"
