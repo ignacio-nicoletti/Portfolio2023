@@ -53,7 +53,7 @@ const DBProyect = [
       "•Mercado Pago",
     ],
     deploy: false,
-    linkGitHub: "https://github.com/ignacio-nicoletti/Advance_detail-Client",
+    linkGitHub: "https://github.com/ignacio-nicoletti/Advance_detailer",
     linkDeploy: "",
   },
   {
