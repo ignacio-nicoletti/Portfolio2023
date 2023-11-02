@@ -17,7 +17,7 @@ const DBProyect = [
     shortDescription:
       "Plataforma E-Comerce para productos de cosmetica natural complementada con Landingpage.",
     longDescription:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aperiam, blanditiis minus consectetur nihil sit, cupiditate magnam ducimus placeat eius voluptatem voluptas officia ad ratione corporis mollitia ullam quaerat ipsam!",
+      "Karku es una plataforma en línea que combina la presentación de productos sostenibles y ecológicos con un sistema de compras en línea. El proyecto consta de dos partes principales: una landing page de presentación y un eCommerce con características avanzadas. El eCommerce de Karku permite a los usuarios explorar y comprar productos sostenibles en línea. ",
     PortadaProject: karku,
     MediaProject: [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1698939184/portfolio/karku/ge6fmbt3edfkygvy5b4m.png",
