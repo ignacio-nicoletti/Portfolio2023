@@ -1,4 +1,5 @@
 // -------------------------Portadas------------------
+import karku from "./Assets/Imagesprojects/karku.png";
 import nabijash from "./Assets/Imagesprojects/nabijash.png";
 import TimeApp from "./Assets/Imagesprojects/time-app.png";
 import videogame from "./Assets/Imagesprojects/individualP.png";
@@ -19,7 +20,7 @@ const DBProyect = [
       "Plataforma E-Comerce para productos de cosmetica natural complementada con Landingpage.",
     longDescription:
       " Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aperiam, blanditiis minus consectetur nihil sit, cupiditate magnam ducimus placeat eius voluptatem voluptas officia ad ratione corporis mollitia ullam quaerat ipsam!",
-    PortadaProject: AdvancePortada,
+    PortadaProject: karku,
     MediaProject: [],
     videoProject: "",
     tecnologies: ["•ReactJs", "•CSS", "•NodeJs", "•MongoDB"],
