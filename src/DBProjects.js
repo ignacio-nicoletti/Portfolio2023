@@ -11,8 +11,6 @@ import proceso from "./Assets/Imagesprojects/proceso.png";
 import tecno2 from "./Assets/Imagesprojects/tecno2.png";
 // -------------------------Portadas------------------
 
-
-
 const DBProyect = [
   {
     title: "Karku",
@@ -21,7 +19,12 @@ const DBProyect = [
     longDescription:
       " Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aperiam, blanditiis minus consectetur nihil sit, cupiditate magnam ducimus placeat eius voluptatem voluptas officia ad ratione corporis mollitia ullam quaerat ipsam!",
     PortadaProject: karku,
-    MediaProject: [],
+    MediaProject: [
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1698939184/portfolio/karku/ge6fmbt3edfkygvy5b4m.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1698939183/portfolio/karku/bpeu1zacqymf1opbtsjb.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1698939183/portfolio/karku/wojw0xgqtoordwvcdgir.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1698939183/portfolio/karku/bmmfcsr6rsgtgoc777wr.png",
+    ],
     videoProject: "",
     tecnologies: ["•ReactJs", "•CSS", "•NodeJs", "•MongoDB"],
     deploy: true,
@@ -196,7 +199,8 @@ const DBProyect = [
       "Se realizó un proyecto grupal utilizando Processing y Tuio, programa que mediante un patrón trackea su posición entre ciertos parámetros. El juego consiste en derrotar una hydra de 3 cabezas, cubriendo/esquivando sus ataques y disparando flechas.",
     PortadaProject: tecno2,
     MediaProject: [],
-    videoProject: "https://res.cloudinary.com/dbu2biawj/video/upload/v1697640815/portfolio/tecno2/cbh9psaj0v11bobqanwi.mp4",
+    videoProject:
+      "https://res.cloudinary.com/dbu2biawj/video/upload/v1697640815/portfolio/tecno2/cbh9psaj0v11bobqanwi.mp4",
     tecnologies: ["•Processing", "•Java", "•Tuio", "•POO"],
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/tecnologia-2FBA",
