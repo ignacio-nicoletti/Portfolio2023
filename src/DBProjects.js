@@ -17,7 +17,7 @@ const DBProyect = [
     shortDescription:
       "Plataforma E-Comerce para productos de cosmetica natural complementada con Landingpage.",
     longDescription:
-      "Karku es una plataforma en línea que combina la presentación de productos sostenibles y ecológicos con un sistema de compras en línea. El proyecto consta de dos partes principales: una landing page de presentación y un eCommerce con características avanzadas. El eCommerce de Karku permite a los usuarios explorar y comprar productos sostenibles en línea. ",
+      "Karku es una plataforma en línea que combina la presentación de productos ecológicos con un sistema de compras online. El proyecto consta de dos partes principales: Una landingPage de presentación y un eCommerce con características avanzadas. El eCommerce de Karku permite a los usuarios explorar y comprar productos sostenibles en línea. ",
     PortadaProject: karku,
     MediaProject: [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1698939184/portfolio/karku/ge6fmbt3edfkygvy5b4m.png",
@@ -29,7 +29,7 @@ const DBProyect = [
     tecnologies: ["•ReactJs", "•CSS", "•NodeJs", "•MongoDB"],
     deploy: true,
     linkGitHub: "",
-    linkDeploy: "https://karku-cosmetics.vercel.app/",
+    linkDeploy: "https://www.karku.com.ar",
   },
   {
     title: "Advance_detailer",
