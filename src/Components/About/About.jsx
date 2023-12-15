@@ -25,6 +25,10 @@ import sql from '../../Assets/tecnologiasSVG/mysql-icon.svg';
 import postgrest from '../../Assets/tecnologiasSVG/postgrestSQL.svg';
 import Firebase from '../../Assets/tecnologiasSVG/FireBase.svg';
 
+import certSQL from '../../Assets/certifications/certificado-sql.png';
+import certgithub from '../../Assets/certifications/certificado-github.png';
+import certHenry from '../../Assets/certifications/certificado-henry.png';
+import certcode from '../../Assets/certifications/certificado.jpg';
 const About = ({lenguageEN}) => {
   return (
     <div>
@@ -53,6 +57,17 @@ const About = ({lenguageEN}) => {
               >
                 <img src={imageProfile} alt="" />
               </div>
+            </div>
+
+            <div className={style.certifications}>
+              <p className={style.title}>Mis certificaciones</p>
+              <div className={style.certifications_img}>
+                <img src={certSQL} alt="" />
+                <img src={certgithub} alt="" />
+                <img src={certHenry} alt="" />
+                <img src={certcode} alt="" />
+              </div>
+
             </div>
 
             <div className={style.ability}>

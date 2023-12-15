@@ -25,6 +25,25 @@
   width: 300px;
 }
 
+
+.certifications{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.certifications_img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:15px
+
+}
+.certifications_img img{
+  width: 400px; 
+  border-radius: 10px;
+}
+
 .ability {
   display: flex;
   flex-direction: column;
