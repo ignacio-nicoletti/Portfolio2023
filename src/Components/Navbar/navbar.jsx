@@ -6,9 +6,7 @@ import menuH from '../../Assets/iconNavbar/menu.svg';
 import menuClose from '../../Assets/iconNavbar/menuCancel.svg';
 
 const Navbar = ({setLenguageEN, lenguageEN}) => {
-  const [english, setEnglish] = useState (false);
-
-  const [menu, setMenu] = useState (false);
+  const [menu, setMenu] = useState (true);
 
   return (
     <div>
@@ -73,14 +71,14 @@ const Navbar = ({setLenguageEN, lenguageEN}) => {
               <div className={menu ? style.optionsActive : style.options}>
                 <div className={style.switch}>
                   <input
-                    onClick={() =>  setLenguageEN (!lenguageEN)}
+                    onClick={() => setLenguageEN (!lenguageEN)}
                     className={style.container_toggle}
                     type="checkbox"
                     id="switch"
                     name="mode"
                   />
                   <label htmlFor="switch" />
-                  {english === true ? <p>EN</p> : <p>ES</p>}
+                  {lenguageEN === true ? <p>EN</p> : <p>ES</p>}
 
                 </div>
                 <a href="/">
@@ -171,7 +169,7 @@ const Navbar = ({setLenguageEN, lenguageEN}) => {
                     name="mode"
                   />
                   <label htmlFor="switch" />
-                  {english === true ? <p>EN</p> : <p>ES</p>}
+                  {lenguageEN === true ? <p>EN</p> : <p>ES</p>}
 
                 </div>
                 <a href="/">

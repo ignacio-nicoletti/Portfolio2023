@@ -25,22 +25,22 @@
   width: 300px;
 }
 
-
-.certifications{
+.certifications {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
 }
-.certifications_img{
+.certifications_img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap:15px
-
+  gap: 10px;
 }
-.certifications_img img{
-  width: 400px; 
+.certifications_img img {
+  width: 400px;
+  height: 400px;
   border-radius: 10px;
 }
 
@@ -67,14 +67,12 @@
   flex-direction: column;
 }
 
-
 .iconTecnologies {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 10px;
-
 }
 .tecnologies img {
   width: 80px;
@@ -110,5 +108,11 @@
   .tecnologies img {
     width: 50px;
     height: 50px;
+  }
+
+  .certifications_img img {
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
   }
 }

@@ -246,7 +246,18 @@ const About = ({lenguageEN}) => {
                 <img src={imageProfile} alt="" />
               </div>
             </div>
+            <div className={style.certifications}>
+              <p className={style.title}>
+                My Certifications
+              </p>
+              <div className={style.certifications_img}>
+                <img src={certSQL} alt="" />
+                <img src={certgithub} alt="" />
+                <img src={certHenry} alt="" />
+                <img src={certcode} alt="" />
+              </div>
 
+            </div>
             <div className={style.ability}>
               <p className={style.title}>My main technologies</p>
               <div className={style.grilla}>

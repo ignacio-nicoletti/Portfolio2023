@@ -57,6 +57,9 @@ textarea {
   padding: 1rem;
   font-size: 1.2rem;
 }
+.contain input::placeholder{
+  text-align: center;
+}
 
 .contain label {
   /* padding-left: 1rem; */

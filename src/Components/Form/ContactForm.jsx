@@ -79,12 +79,13 @@ export const ContactForm = ({lenguageEN}) => {
                 type="email"
                 value={email}
                 name="user_emai"
-                placeholder="email"
+                placeholder="Email"
                 onChange={e => setEmail (e.target.value)}
               />
               <label>Mensaje</label>
               <input
-                name="message"
+                name="Message"
+                placeholder="Mensaje"
                 value={message}
                 onChange={e => setMessage (e.target.value)}
               />
