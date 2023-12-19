@@ -211,10 +211,35 @@ const About = ({lenguageEN}) => {
                 <div className={style.tecnologies}>
                   <h3>Base de Datos</h3>
                   <div className={style.iconTecnologies}>
-                    <img src={mongoDb} alt="MongoDB" />
-                    <img src={sql} alt="MySQLDB" />
-                    <img src={postgrest} alt="PostGrestDB" />
-                    <img src={Firebase} alt="FireBaseDB" />
+                    <a
+                      href="https://www.mongodb.com/es"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={mongoDb} alt="MongoDB" />
+                    </a>
+                    <a
+                      href="https://www.mysql.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+
+                      <img src={sql} alt="MySQLDB" />{' '}
+                    </a>
+                    <a
+                      href="https://www.postgresql.org"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={postgrest} alt="PostGrestDB" />
+                    </a>
+                    <a
+                      href="https://firebase.google.com/?hl=es"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={Firebase} alt="FireBaseDB" />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -370,7 +395,7 @@ const About = ({lenguageEN}) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={JWT} alt="Jason Web Token" />{' '}
+                      <img src={JWT} alt="Jason Web Token" />
                     </a>
                     <a
                       href="https://www.npmjs.com/package/bcrypt"
@@ -399,10 +424,35 @@ const About = ({lenguageEN}) => {
                 <div className={style.tecnologies}>
                   <h3>Database</h3>
                   <div className={style.iconTecnologies}>
-                    <img src={mongoDb} alt="MongoDB" />
-                    <img src={sql} alt="MySQLDB" />
-                    <img src={postgrest} alt="PostGrestDB" />
-                    <img src={Firebase} alt="FireBaseDB" />
+                    <a
+                      href="https://www.mongodb.com/es"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={mongoDb} alt="MongoDB" />
+                    </a>
+                    <a
+                      href="https://www.mysql.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+
+                      <img src={sql} alt="MySQLDB" />{' '}
+                    </a>
+                    <a
+                      href="https://www.postgresql.org"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={postgrest} alt="PostGrestDB" />
+                    </a>
+                    <a
+                      href="https://firebase.google.com/?hl=es"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={Firebase} alt="FireBaseDB" />
+                    </a>
                   </div>
                 </div>
               </div>
