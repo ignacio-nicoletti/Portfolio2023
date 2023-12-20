@@ -461,6 +461,13 @@ const About = ({lenguageEN}) => {
                     >
                       <img src={Firebase} alt="FireBaseDB" />
                     </a>
+                    <a
+                      href="https://www.microsoft.com/es-es/sql-server"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={sqlserver} alt="sqlserver" />
+                    </a>
                   </div>
                 </div>
               </div>
