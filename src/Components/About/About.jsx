@@ -24,6 +24,7 @@ import mongoDb from '../../Assets/tecnologiasSVG/mongodb-icons.svg';
 import sql from '../../Assets/tecnologiasSVG/mysql-icon.svg';
 import postgrest from '../../Assets/tecnologiasSVG/postgrestSQL.svg';
 import Firebase from '../../Assets/tecnologiasSVG/FireBase.svg';
+import sqlserver from '../../Assets/tecnologiasSVG/SQLserver.svg';
 
 import certSQL from '../../Assets/certifications/certificado-sql.png';
 import certgithub from '../../Assets/certifications/certificado-github.png';
@@ -239,6 +240,13 @@ const About = ({lenguageEN}) => {
                       rel="noopener noreferrer"
                     >
                       <img src={Firebase} alt="FireBaseDB" />
+                    </a>
+                    <a
+                      href="https://www.microsoft.com/es-es/sql-server"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={sqlserver} alt="sqlserver" />
                     </a>
                   </div>
                 </div>
