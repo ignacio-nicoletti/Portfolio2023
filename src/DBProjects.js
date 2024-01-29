@@ -25,7 +25,7 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1706546201/portfolio/thercarr/relq2oudaehplsb46t6j.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1706546200/portfolio/thercarr/tmyn2lk5je9difs0yaes.png",
     ],
-    videoProject: "https://res.cloudinary.com/dbu2biawj/video/upload/v1703257201/portfolio/karku/uylwdvh2tibxcaak5e4k.mp4",
+    videoProject: "https://res.cloudinary.com/dbu2biawj/video/upload/v1706547295/portfolio/thercarr/fy1piaobkzso2vo9kebi.mp4",
     tecnologies: ["•ReactJs", "•CSS", "•AOS"],
     deploy: true,
     linkGitHub: "",
