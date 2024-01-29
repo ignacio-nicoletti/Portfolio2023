@@ -9,9 +9,28 @@ import Nails from "./Assets/Imagesprojects/nailsturn.png";
 import AdvancePortada from "./Assets/Imagesprojects/ecomerce.png";
 import proceso from "./Assets/Imagesprojects/proceso.png";
 import tecno2 from "./Assets/Imagesprojects/tecno2.png";
+import thercarr from "./Assets/Imagesprojects/Thercarr.png"
 // -------------------------Portadas------------------
 
 const DBProyect = [
+  {
+    title: "Thercarr",
+    shortDescription:
+      "LandingPage promocionando a una empresa orientada a la instalacion de unidades frigorificas para el transporte de cargas.",
+    longDescription:
+      "LandingPage promocionando a una empresa orientada a la instalacion de unidades frigorificas para el transporte de cargas. ",
+    PortadaProject: thercarr,
+    MediaProject: [
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1706546201/portfolio/thercarr/d2wemenb7g7hbvouaqpz.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1706546201/portfolio/thercarr/relq2oudaehplsb46t6j.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1706546200/portfolio/thercarr/tmyn2lk5je9difs0yaes.png",
+    ],
+    videoProject: "https://res.cloudinary.com/dbu2biawj/video/upload/v1703257201/portfolio/karku/uylwdvh2tibxcaak5e4k.mp4",
+    tecnologies: ["•ReactJs", "•CSS", "•AOS"],
+    deploy: true,
+    linkGitHub: "",
+    linkDeploy: "https://www.thercarr.com.ar",
+  },
   {
     title: "Karku",
     shortDescription:
