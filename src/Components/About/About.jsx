@@ -30,6 +30,7 @@ import certSQL from '../../Assets/certifications/certificado-sql.png';
 import certgithub from '../../Assets/certifications/certificado-github.png';
 import certHenry from '../../Assets/certifications/certificado-henry.png';
 import certcode from '../../Assets/certifications/certificado.jpg';
+import certHTML from '../../Assets/certifications/HTML_educacionIT.png';
 const About = ({lenguageEN}) => {
   return (
     <div>
@@ -63,10 +64,11 @@ const About = ({lenguageEN}) => {
             <div className={style.certifications}>
               <p className={style.title}>Mis certificaciones</p>
               <div className={style.certifications_img}>
-                <img src={certSQL} alt="" />
-                <img src={certgithub} alt="" />
-                <img src={certHenry} alt="" />
-                <img src={certcode} alt="" />
+                <img src={certHTML} alt="certificado HMTL" />
+                <img src={certSQL} alt="certificado SQL" />
+                <img src={certgithub} alt="certificado de github" />
+                <img src={certHenry} alt="certificado de henry" />
+                <img src={certcode} alt="certificado code" />
               </div>
 
             </div>
@@ -284,10 +286,11 @@ const About = ({lenguageEN}) => {
                 My Certifications
               </p>
               <div className={style.certifications_img}>
-                <img src={certSQL} alt="" />
-                <img src={certgithub} alt="" />
-                <img src={certHenry} alt="" />
-                <img src={certcode} alt="" />
+                <img src={certHTML} alt="certificado HMTL" />
+                <img src={certSQL} alt="certificado SQL" />
+                <img src={certgithub} alt="certificado de github" />
+                <img src={certHenry} alt="certificado de henry" />
+                <img src={certcode} alt="certificado code" />
               </div>
 
             </div>
