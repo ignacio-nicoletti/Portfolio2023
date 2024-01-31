@@ -37,10 +37,10 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+
 }
 .certifications_img img {
-  width: 400px;
-  height: 400px;
+  width: 500px;
   border-radius: 10px;
 }
 
