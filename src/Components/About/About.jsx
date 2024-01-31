@@ -31,6 +31,7 @@ import certgithub from '../../Assets/certifications/certificado-github.png';
 import certHenry from '../../Assets/certifications/certificado-henry.png';
 import certcode from '../../Assets/certifications/certificado.jpg';
 import certHTML from '../../Assets/certifications/HTML_educacionIT.png';
+import certintProgramacion from '../../Assets/certifications/Certificado-Introducción-a-la-Programación.png';
 const About = ({lenguageEN}) => {
   return (
     <div>
@@ -64,6 +65,7 @@ const About = ({lenguageEN}) => {
             <div className={style.certifications}>
               <p className={style.title}>Mis certificaciones</p>
               <div className={style.certifications_img}>
+                <img src={certintProgramacion} alt="certificado HMTL" />
                 <img src={certHTML} alt="certificado HMTL" />
                 <img src={certSQL} alt="certificado SQL" />
                 <img src={certgithub} alt="certificado de github" />
@@ -286,6 +288,7 @@ const About = ({lenguageEN}) => {
                 My Certifications
               </p>
               <div className={style.certifications_img}>
+                <img src={certintProgramacion} alt="certificado HMTL" />
                 <img src={certHTML} alt="certificado HMTL" />
                 <img src={certSQL} alt="certificado SQL" />
                 <img src={certgithub} alt="certificado de github" />
