@@ -44,13 +44,13 @@ const About = ({lenguageEN}) => {
               <div className={style.text}>
                 <p className={style.title}>Sobre mi</p>
                 <p data-aos="fade-right" data-aos-duration="1500">
-                  Mi nombre es Ignacio Nicoletti, soy técnico informático con una gran pasión por la programación. Me fascina entregar soluciones que agreguen valor a la vida de las personas y al mismo tiempo me desafíen. Mejoré mis habilidades como desarrollador Front-End y Back-End.
+                Mi nombre es Ignacio Nicoletti, soy técnico informático con una gran pasión por la programación. Me fascina proporcionar soluciones que agreguen valor a la vida de las personas y, al mismo tiempo, me desafíen. He mejorado mis habilidades como desarrollador tanto Front-End como Back-End.
                 </p>
                 <p data-aos="fade-right" data-aos-duration="1500">
-                  Desde chico siempre me gustó la programación lo cual siempre tengo motivación para perfeccionar mis habilidades y aprender nuevas tecnologías. Me egresé del Bootcamp SoyHenry, obteniendo como logro que el proyecto grupal sea considerado uno de los mejores entre las dos cohortes.
+                Desde mi infancia, he sentido un gran interés por la programación, lo que me motiva constantemente a perfeccionar mis habilidades y a aprender nuevas tecnologías. Me gradué del Bootcamp SoyHenry, donde uno de mis logros fue que el proyecto grupal que desarrollé fuera considerado uno de los mejores entre las dos cohortes.
                 </p>
                 <p data-aos="fade-right" data-aos-duration="1500">
-                  Soy una persona dedicada que persigue hacer realidad sus sueños, trabajadora y orientada a resultados, busco siempre alcanzar mi mejor versión sin importar las dificultades.
+                Soy una persona dedicada que persigue hacer realidad sus sueños, trabajadora y orientada a resultados. Siempre busco alcanzar mi mejor versión sin importar las dificultades.
                 </p>
 
               </div>
@@ -269,14 +269,14 @@ const About = ({lenguageEN}) => {
               <div className={style.text}>
                 <p className={style.title}>About me</p>
                 <p data-aos="fade-right" data-aos-duration="1500">
-                  My name is Ignacio Nicoletti, I am a computer technician with a great passion for programming. I am fascinated by delivering solutions that add value to people's lives while challenging me at the same time. I have improved my skills as a Front-End and Back-End developer.
+                My name is Ignacio Nicoletti, I am a computer technician with a great passion for programming. I am fascinated by providing solutions that add value to people's lives and, at the same time, challenge me. I have enhanced my skills as a developer in both Front-End and Back-End.
                 </p>
                 <p data-aos="fade-right" data-aos-duration="1500">
-                  Since I was a child, I have always liked programming, which is why I am always motivated to improve my skills and learn new technologies. I graduated from the SoyHenry Bootcamp, achieving the accomplishment of having the group project considered one of the best among the two cohorts.
+                Since my childhood, I have had a keen interest in programming, which constantly motivates me to refine my skills and learn new technologies. I graduated from the SoyHenry Bootcamp, where one of my achievements was that the group project I developed was considered one of the best among the two cohorts.
                   {' '}
                 </p>
                 <p data-aos="fade-right" data-aos-duration="1500">
-                  I am a dedicated person who strives to make their dreams come true, hardworking and results-oriented. I always seek to reach my best version regardless of the difficulties.
+                I am a dedicated person who strives to make their dreams come true, hardworking and results-oriented. I always seek to achieve my best version regardless of the challenges.
                   {' '}
                 </p>
 
