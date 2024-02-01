@@ -10,7 +10,6 @@
 
 .projects {
   color: white;
-  /* padding-inline: 2%; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

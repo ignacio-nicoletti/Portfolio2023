@@ -9,14 +9,14 @@ import Nails from "./Assets/Imagesprojects/nailsturn.png";
 import AdvancePortada from "./Assets/Imagesprojects/ecomerce.png";
 import proceso from "./Assets/Imagesprojects/proceso.png";
 import tecno2 from "./Assets/Imagesprojects/tecno2.png";
-import thercarr from "./Assets/Imagesprojects/Thercarr.png"
+import thercarr from "./Assets/Imagesprojects/Thercarr.png";
 // -------------------------Portadas------------------
 
 const DBProyect = [
   {
     title: "Thercarr",
     shortDescription:
-      "LandingPage promocionando a una empresa orientada a la instalacion de unidades frigorificas para el transporte de cargas.",
+      "LandingPage de empresa orientada a la instalacion de unidades frigorificas para el transporte de cargas.",
     longDescription:
       "LandingPage promocionando a una empresa orientada a la instalacion de unidades frigorificas para el transporte de cargas. ",
     PortadaProject: thercarr,
@@ -25,8 +25,9 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1706546201/portfolio/thercarr/relq2oudaehplsb46t6j.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1706546200/portfolio/thercarr/tmyn2lk5je9difs0yaes.png",
     ],
-    videoProject: "https://res.cloudinary.com/dbu2biawj/video/upload/v1706547295/portfolio/thercarr/fy1piaobkzso2vo9kebi.mp4",
-    tecnologies: ["•ReactJs", "•CSS", "•AOS"],
+    videoProject:
+      "https://res.cloudinary.com/dbu2biawj/video/upload/v1706547295/portfolio/thercarr/fy1piaobkzso2vo9kebi.mp4",
+    tecnologies: ["•ReactJs", "•CSS", "•AOS", "•JS"],
     deploy: true,
     linkGitHub: "",
     linkDeploy: "https://www.thercarr.com.ar",
@@ -44,7 +45,8 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1703257079/portfolio/karku/ozrlqkdnbfndtcjkhnvt.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1703257080/portfolio/karku/mxuws9qmmpegi4ln1qpy.png",
     ],
-    videoProject: "https://res.cloudinary.com/dbu2biawj/video/upload/v1703257201/portfolio/karku/uylwdvh2tibxcaak5e4k.mp4",
+    videoProject:
+      "https://res.cloudinary.com/dbu2biawj/video/upload/v1703257201/portfolio/karku/uylwdvh2tibxcaak5e4k.mp4",
     tecnologies: ["•ReactJs", "•CSS", "•NodeJs", "•MongoDB"],
     deploy: true,
     linkGitHub: "",
@@ -86,7 +88,11 @@ const DBProyect = [
     longDescription:
       " Proyecto evaluativo grupal realizado en la carrera de programación, teniendo como objetivo la construccion de una pagina E-comerce, usando metodología Scrum, MongoDB y Typescript con nodeJs.   ",
     PortadaProject: nabijash,
-    MediaProject: [],
+    MediaProject: [
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1706798092/portfolio/nabijash/uswl7isnyepnmnzatsao.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1706798091/portfolio/nabijash/fcttxzvdvxwm0owk1s6f.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1706798092/portfolio/nabijash/fu7qyrgnnyllwadbg5fx.png",
+    ],
     videoProject:
       "https://res.cloudinary.com/dbu2biawj/video/upload/v1697636635/portfolio/nabijash/dxmuv60bxuyob6y368tq.mp4",
     tecnologies: [
@@ -164,7 +170,7 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1697637690/portfolio/weatherapp/bxnb8lay3yxlj7fzy3a0.png",
     ],
     videoProject: "",
-    tecnologies: ["•ReactJs", "•JavaScript", "•CSS", "HTML"],
+    tecnologies: ["•ReactJs", "•JavaScript", "•CSS", "•HTML"],
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/TimeApp",
     linkDeploy: "",
@@ -191,7 +197,7 @@ const DBProyect = [
     PortadaProject: Store,
     MediaProject: [],
     videoProject: "",
-    tecnologies: ["•NextJS", "•CSS", "•JavaScript", "HTML"],
+    tecnologies: ["•NextJS", "•CSS", "•JavaScript", "•HTML"],
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/storeAPP-nextJS",
     linkDeploy: "",

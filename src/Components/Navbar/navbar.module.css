@@ -49,6 +49,7 @@
 
 .navbarMobile {
   display: none;
+ 
 }
 
 .languageSwitch {
@@ -64,6 +65,7 @@
   background-color: white;
   border-radius: 15px;
 }
+.languageSwitchLabel:hover { cursor: pointer;}
 
 .languageSwitchInner {
   position: absolute;
@@ -99,7 +101,6 @@
 
 .languageText span {
   padding: 5px;
-  cursor: pointer;
 }
 
 .languageTextEn {
