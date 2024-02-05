@@ -5,6 +5,7 @@ import linkedinIcon from '../../Assets/linkedin.png';
 import githubIcon from '../../Assets/github.png';
 import instagramIcon from '../../Assets/instagram.png';
 import style from './Footer.module.css';
+import gmail from "../../Assets/gmail.svg"
 
 export function Footer ({lenguageEN}) {
   return (
@@ -31,6 +32,13 @@ export function Footer ({lenguageEN}) {
             </div>
 
             <div className={style.social_media}>
+            <a
+                href="mailto:nicolettiignacio5@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={gmail} alt="Linkedin" />
+              </a>
               <a
                 href="https://www.linkedin.com/in/ignacio-nicoletti/"
                 target="_blank"
@@ -77,6 +85,13 @@ export function Footer ({lenguageEN}) {
             </div>
 
             <div className={style.social_media}>
+              <a
+                href="mailto:nicolettiignacio5@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={gmail} alt="gmail" />
+              </a>
               <a
                 href="https://www.linkedin.com/in/ignacio-nicoletti/"
                 target="_blank"
