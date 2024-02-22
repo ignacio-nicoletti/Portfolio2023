@@ -1,37 +1,42 @@
 import style from './About.module.css';
 import imageProfile from '../../Assets/nacho.png';
 
-import react from '../../Assets/tecnologiasSVG/react-icon.svg';
-import html from '../../Assets/tecnologiasSVG/html-icon.svg';
-import css from '../../Assets/tecnologiasSVG/css-icon.svg';
-import redux from '../../Assets/tecnologiasSVG/redux-icon.svg';
+import react from '../../Assets/tecnologiasSVG/frontend/react-icon.svg';
+import html from '../../Assets/tecnologiasSVG/frontend/html-icon.svg';
+import css from '../../Assets/tecnologiasSVG/frontend/css-icon.svg';
+import redux from '../../Assets/tecnologiasSVG/frontend/redux-icon.svg';
+import typescript from '../../Assets/tecnologiasSVG/frontend/type.png';
+import javascript from '../../Assets/tecnologiasSVG/frontend/javas.png';
+import nextjs from '../../Assets/tecnologiasSVG/frontend/nextjs.png';
+import axios from '../../Assets/tecnologiasSVG/frontend/axios.png';
+import csharp from '../../Assets/tecnologiasSVG/frontend/Csharp.svg';
 
-import typescript from '../../Assets/tecnologias/type.png';
-import javascript from '../../Assets/tecnologias/javas.png';
-import nextjs from '../../Assets/tecnologias/nextjs.png';
-import axios from '../../Assets/tecnologias/axios.png';
-import materialUI from '../../Assets/tecnologiasSVG/materialui-icon.svg';
+import nodeJs from '../../Assets/tecnologiasSVG/backend/node-icon.svg';
+import express from '../../Assets/tecnologiasSVG/backend/express-icon.svg';
+import mongoose from '../../Assets/tecnologiasSVG/backend/Mongoose.svg';
+import JWT from '../../Assets/tecnologiasSVG/backend/JWT.svg';
+import Bcrypt from '../../Assets/tecnologiasSVG/backend/Bcrypt.svg';
+import NodeEmailer from '../../Assets/tecnologiasSVG/backend/NodeEmailer.svg';
+import sequelize from '../../Assets/tecnologiasSVG/backend/Sequelize.svg';
+import Net from '../../Assets/tecnologiasSVG/backend/net.svg';
 
-import nodeJs from '../../Assets/tecnologiasSVG/node-icon.svg';
-import express from '../../Assets/tecnologiasSVG/express-icon.svg';
-import mongoose from '../../Assets/tecnologiasSVG/Mongoose.svg';
-import JWT from '../../Assets/tecnologiasSVG/JWT.svg';
-import Bcrypt from '../../Assets/tecnologiasSVG/Bcrypt.svg';
-import NodeEmailer from '../../Assets/tecnologiasSVG/NodeEmailer.svg';
-import sequelize from '../../Assets/tecnologiasSVG/Sequelize.svg';
+import mongoDb from '../../Assets/tecnologiasSVG/database/mongodb-icons.svg';
+import sql from '../../Assets/tecnologiasSVG/database/mysql-icon.svg';
+import postgrest from '../../Assets/tecnologiasSVG/database/postgrestSQL.svg';
+import Firebase from '../../Assets/tecnologiasSVG/database/FireBase.svg';
+import sqlserver from '../../Assets/tecnologiasSVG/database/SQLserver.svg';
 
-import mongoDb from '../../Assets/tecnologiasSVG/mongodb-icons.svg';
-import sql from '../../Assets/tecnologiasSVG/mysql-icon.svg';
-import postgrest from '../../Assets/tecnologiasSVG/postgrestSQL.svg';
-import Firebase from '../../Assets/tecnologiasSVG/FireBase.svg';
-import sqlserver from '../../Assets/tecnologiasSVG/SQLserver.svg';
+import canva from '../../Assets/tecnologiasSVG/design/canva.svg';
+import figma from '../../Assets/tecnologiasSVG/design/figma.svg';
+import photoshop from '../../Assets/tecnologiasSVG/design/photoshop.svg';
+import marvelApp from '../../Assets/tecnologiasSVG/design/marvelApp.svg';
+import adobeXd from '../../Assets/tecnologiasSVG/design/adobeXd.svg';
 
 import certSQL from '../../Assets/certifications/certificado-sql.png';
 import certgithub from '../../Assets/certifications/certificado-github.png';
 import certHenry from '../../Assets/certifications/certificado-henry.png';
 import certcode from '../../Assets/certifications/certificado.jpg';
 import certHTML from '../../Assets/certifications/HTML_educacionIT.png';
-
 import certfintC
   from '../../Assets/certifications/Certificado-Introducción-a-Csharp.png';
 import certintProgramacion
@@ -108,7 +113,20 @@ const About = ({lenguageEN}) => {
                     >
                       <img src={css} alt="CSS" />
                     </a>
-
+                    <a
+                      href="https://developer.mozilla.org/es/docs/Web/JavaScript"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={javascript} alt="JavaScript" />
+                    </a>
+                    <a
+                      href="https://www.typescriptlang.org/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={typescript} alt="Typescript" />
+                    </a>
                     <a
                       href="https://es.react.dev/"
                       target="_blank"
@@ -124,29 +142,19 @@ const About = ({lenguageEN}) => {
                     >
                       <img src={nextjs} alt="NextJS" />
                     </a>
-
+                    <a
+                      href="https://dotnet.microsoft.com/es-es/languages/csharp"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={csharp} alt="C#" />
+                    </a>
                     <a
                       href="https://redux.js.org/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <img src={redux} alt="Redux" />
-                    </a>
-
-                    <a
-                      href="https://www.typescriptlang.org/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img src={typescript} alt="Typescript" />
-                    </a>
-
-                    <a
-                      href="https://developer.mozilla.org/es/docs/Web/JavaScript"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img src={javascript} alt="JavaScript" />
                     </a>
 
                     <a
@@ -157,13 +165,6 @@ const About = ({lenguageEN}) => {
                       <img src={axios} alt="Axios" />
                     </a>
 
-                    <a
-                      href="https://mui.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img src={materialUI} alt="MaterialUi" />
-                    </a>
                   </div>
                 </div>
 
@@ -193,6 +194,13 @@ const About = ({lenguageEN}) => {
                       <img src={mongoose} alt="Mongoose" />
                     </a>
                     <a
+                      href="https://sequelize.org/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={sequelize} alt="Sequelize" />
+                    </a>
+                    <a
                       href="https://jwt.io/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -206,19 +214,20 @@ const About = ({lenguageEN}) => {
                     >
                       <img src={Bcrypt} alt="BCrypt" />
                     </a>
-                    <a
-                      href="https://sequelize.org/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img src={sequelize} alt="Sequelize" />
-                    </a>
+
                     <a
                       href="https://nodemailer.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <img src={NodeEmailer} alt="NodeEmailer" />
+                    </a>
+                    <a
+                      href="https://nodemailer.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={Net} alt="NodeEmailer" />
                     </a>
                   </div>
                 </div>
@@ -261,6 +270,47 @@ const About = ({lenguageEN}) => {
                       rel="noopener noreferrer"
                     >
                       <img src={sqlserver} alt="sqlserver" />
+                    </a>
+                  </div>
+                </div>
+                <div className={style.tecnologies}>
+                  <h3>Diseño</h3>
+                  <div className={style.iconTecnologies}>
+                    <a
+                      href="https://www.canva.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={canva} alt="Canva" />
+                    </a>
+                    <a
+                      href="https://www.figma.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+
+                      <img src={figma} alt="Figma" />{' '}
+                    </a>
+                    <a
+                      href="https://www.adobe.com/ar/products/photoshop.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={photoshop} alt="photoshop" />
+                    </a>
+                    <a
+                      href="https://marvelapp.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={marvelApp} alt="MarvelApp" />
+                    </a>
+                    <a
+                      href="https://helpx.adobe.com/es/xd/get-started.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={adobeXd} alt="adobeXd" />
                     </a>
                   </div>
                 </div>
@@ -314,7 +364,7 @@ const About = ({lenguageEN}) => {
 
                 <div className={style.tecnologies}>
 
-                  <h3>Frontend</h3>
+                <h3>Frontend</h3>
                   <div className={style.iconTecnologies}>
                     <a
                       href="https://developer.mozilla.org/es/docs/Web/HTML"
@@ -331,7 +381,20 @@ const About = ({lenguageEN}) => {
                     >
                       <img src={css} alt="CSS" />
                     </a>
-
+                    <a
+                      href="https://developer.mozilla.org/es/docs/Web/JavaScript"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={javascript} alt="JavaScript" />
+                    </a>
+                    <a
+                      href="https://www.typescriptlang.org/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={typescript} alt="Typescript" />
+                    </a>
                     <a
                       href="https://es.react.dev/"
                       target="_blank"
@@ -347,29 +410,19 @@ const About = ({lenguageEN}) => {
                     >
                       <img src={nextjs} alt="NextJS" />
                     </a>
-
+                    <a
+                      href="https://dotnet.microsoft.com/es-es/languages/csharp"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={csharp} alt="C#" />
+                    </a>
                     <a
                       href="https://redux.js.org/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <img src={redux} alt="Redux" />
-                    </a>
-
-                    <a
-                      href="https://www.typescriptlang.org/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img src={typescript} alt="Typescript" />
-                    </a>
-
-                    <a
-                      href="https://developer.mozilla.org/es/docs/Web/JavaScript"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img src={javascript} alt="JavaScript" />
                     </a>
 
                     <a
@@ -380,13 +433,6 @@ const About = ({lenguageEN}) => {
                       <img src={axios} alt="Axios" />
                     </a>
 
-                    <a
-                      href="https://mui.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img src={materialUI} alt="MaterialUi" />
-                    </a>
                   </div>
                 </div>
 
@@ -416,11 +462,18 @@ const About = ({lenguageEN}) => {
                       <img src={mongoose} alt="Mongoose" />
                     </a>
                     <a
+                      href="https://sequelize.org/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={sequelize} alt="Sequelize" />
+                    </a>
+                    <a
                       href="https://jwt.io/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={JWT} alt="Jason Web Token" />
+                      <img src={JWT} alt="Jason Web Token" />{' '}
                     </a>
                     <a
                       href="https://www.npmjs.com/package/bcrypt"
@@ -429,19 +482,20 @@ const About = ({lenguageEN}) => {
                     >
                       <img src={Bcrypt} alt="BCrypt" />
                     </a>
-                    <a
-                      href="https://sequelize.org/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img src={sequelize} alt="Sequelize" />
-                    </a>
+
                     <a
                       href="https://nodemailer.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <img src={NodeEmailer} alt="NodeEmailer" />
+                    </a>
+                    <a
+                      href="https://nodemailer.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={Net} alt="NodeEmailer" />
                     </a>
                   </div>
                 </div>
@@ -484,6 +538,47 @@ const About = ({lenguageEN}) => {
                       rel="noopener noreferrer"
                     >
                       <img src={sqlserver} alt="sqlserver" />
+                    </a>
+                  </div>
+                </div>
+                <div className={style.tecnologies}>
+                  <h3>Design</h3>
+                  <div className={style.iconTecnologies}>
+                    <a
+                      href="https://www.canva.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={canva} alt="Canva" />
+                    </a>
+                    <a
+                      href="https://www.figma.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+
+                      <img src={figma} alt="Figma" />{' '}
+                    </a>
+                    <a
+                      href="https://www.adobe.com/ar/products/photoshop.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={photoshop} alt="photoshop" />
+                    </a>
+                    <a
+                      href="https://marvelapp.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={marvelApp} alt="MarvelApp" />
+                    </a>
+                    <a
+                      href="https://helpx.adobe.com/es/xd/get-started.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={adobeXd} alt="adobeXd" />
                     </a>
                   </div>
                 </div>

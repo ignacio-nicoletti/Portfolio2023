@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import emailjs from '@emailjs/browser';
 import style from './ContactForm.module.css';
-import WhatsApp from '../../Assets/WhatsApp.svg2.png';
+import WhatsApp from '../../Assets/iconsPage/WhatsApp.svg2.png';
 export const ContactForm = ({lenguageEN}) => {
   const [nombre, setNombre] = useState ('');
   const [email, setEmail] = useState ('');

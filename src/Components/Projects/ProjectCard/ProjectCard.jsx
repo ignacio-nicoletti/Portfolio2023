@@ -1,6 +1,6 @@
 import style from './ProjectCard.module.css';
-import githubIcon from '../../../Assets/github-icon.svg';
-import deployIcon from '../../../Assets/external-link-icon.svg';
+import githubIcon from '../../../Assets/iconsPage/github-icon.svg';
+import deployIcon from '../../../Assets/iconsPage/external-link-icon.svg';
 
 const ProjectCard = ({
   title,

@@ -1,13 +1,13 @@
 import React from 'react';
 
-import reactIcon from '../../Assets/tecnologiasSVG/react-icon.svg';
-import linkedinIcon from '../../Assets/linkedin.png';
-import githubIcon from '../../Assets/github.png';
-import instagramIcon from '../../Assets/instagram.png';
+import reactIcon from '../../Assets/tecnologiasSVG//frontend/react-icon.svg';
+import linkedinIcon from '../../Assets/iconsPage/linkedin.png';
+import githubIcon from '../../Assets/iconsPage/github.png';
+import instagramIcon from '../../Assets/iconsPage/instagram.png';
 import style from './Footer.module.css';
-import gmail from "../../Assets/gmail.svg"
+import gmail from '../../Assets/iconsPage/gmail.svg';
 
-export function Footer ({lenguageEN}) {
+export function Footer({lenguageEN}) {
   return (
     <div>
       {lenguageEN === false
@@ -32,7 +32,7 @@ export function Footer ({lenguageEN}) {
             </div>
 
             <div className={style.social_media}>
-            <a
+              <a
                 href="mailto:nicolettiignacio5@gmail.com"
                 target="_blank"
                 rel="noreferrer"
@@ -79,7 +79,7 @@ export function Footer ({lenguageEN}) {
 
             <div className={style.centerFooter}>
               <p>
-              This site was developed with React.{' '}
+                This site was developed with React.{' '}
               </p>
               <img src={reactIcon} alt="React" />
             </div>
