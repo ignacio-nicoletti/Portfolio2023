@@ -33,7 +33,7 @@ import certcode from '../../Assets/certifications/certificado.jpg';
 import certHTML from '../../Assets/certifications/HTML_educacionIT.png';
 
 import certfintC
-  from '../../Assets/certifications/Certificado-Introducción-a-C#.png';
+  from '../../Assets/certifications/Certificado-Introducción-a-Csharp.png';
 import certintProgramacion
   from '../../Assets/certifications/Certificado-Introducción-a-la-Programación.png';
 const About = ({lenguageEN}) => {
