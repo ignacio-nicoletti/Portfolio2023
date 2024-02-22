@@ -31,6 +31,8 @@ import certgithub from '../../Assets/certifications/certificado-github.png';
 import certHenry from '../../Assets/certifications/certificado-henry.png';
 import certcode from '../../Assets/certifications/certificado.jpg';
 import certHTML from '../../Assets/certifications/HTML_educacionIT.png';
+import certintC
+  from '../../Assets/certifications/Certificado-Introducción-a-C#-.NET-EducaciónIT.png';
 import certintProgramacion
   from '../../Assets/certifications/Certificado-Introducción-a-la-Programación.png';
 const About = ({lenguageEN}) => {
@@ -44,13 +46,13 @@ const About = ({lenguageEN}) => {
               <div className={style.text}>
                 <p className={style.title}>Sobre mi</p>
                 <p data-aos="fade-right" data-aos-duration="1500">
-                Mi nombre es Ignacio Nicoletti, soy técnico informático con una gran pasión por la programación. Me fascina proporcionar soluciones que agreguen valor a la vida de las personas y, al mismo tiempo, me desafíen. He mejorado mis habilidades como desarrollador tanto Front-End como Back-End.
+                  Mi nombre es Ignacio Nicoletti, soy técnico informático con una gran pasión por la programación. Me fascina proporcionar soluciones que agreguen valor a la vida de las personas y, al mismo tiempo, me desafíen. He mejorado mis habilidades como desarrollador tanto Front-End como Back-End.
                 </p>
                 <p data-aos="fade-right" data-aos-duration="1500">
-                Desde mi infancia, he sentido un gran interés por la programación, lo que me motiva constantemente a perfeccionar mis habilidades y a aprender nuevas tecnologías. Me gradué del Bootcamp SoyHenry, donde uno de mis logros fue que el proyecto grupal que desarrollé fuera considerado uno de los mejores entre las dos cohortes.
+                  Desde mi infancia, he sentido un gran interés por la programación, lo que me motiva constantemente a perfeccionar mis habilidades y a aprender nuevas tecnologías. Me gradué del Bootcamp SoyHenry, donde uno de mis logros fue que el proyecto grupal que desarrollé fuera considerado uno de los mejores entre las dos cohortes.
                 </p>
                 <p data-aos="fade-right" data-aos-duration="1500">
-                Soy una persona dedicada que persigue hacer realidad sus sueños, trabajadora y orientada a resultados. Siempre busco alcanzar mi mejor versión sin importar las dificultades.
+                  Soy una persona dedicada que persigue hacer realidad sus sueños, trabajadora y orientada a resultados. Siempre busco alcanzar mi mejor versión sin importar las dificultades.
                 </p>
 
               </div>
@@ -71,6 +73,7 @@ const About = ({lenguageEN}) => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="3000"
               >
+                <img src={certintC} alt="certificado C#" />
                 <img src={certintProgramacion} alt="certificado HMTL" />
                 <img src={certHTML} alt="certificado HMTL" />
                 <img src={certSQL} alt="certificado SQL" />
@@ -269,14 +272,14 @@ const About = ({lenguageEN}) => {
               <div className={style.text}>
                 <p className={style.title}>About me</p>
                 <p data-aos="fade-right" data-aos-duration="1500">
-                My name is Ignacio Nicoletti, I am a computer technician with a great passion for programming. I am fascinated by providing solutions that add value to people's lives and, at the same time, challenge me. I have enhanced my skills as a developer in both Front-End and Back-End.
+                  My name is Ignacio Nicoletti, I am a computer technician with a great passion for programming. I am fascinated by providing solutions that add value to people's lives and, at the same time, challenge me. I have enhanced my skills as a developer in both Front-End and Back-End.
                 </p>
                 <p data-aos="fade-right" data-aos-duration="1500">
-                Since my childhood, I have had a keen interest in programming, which constantly motivates me to refine my skills and learn new technologies. I graduated from the SoyHenry Bootcamp, where one of my achievements was that the group project I developed was considered one of the best among the two cohorts.
+                  Since my childhood, I have had a keen interest in programming, which constantly motivates me to refine my skills and learn new technologies. I graduated from the SoyHenry Bootcamp, where one of my achievements was that the group project I developed was considered one of the best among the two cohorts.
                   {' '}
                 </p>
                 <p data-aos="fade-right" data-aos-duration="1500">
-                I am a dedicated person who strives to make their dreams come true, hardworking and results-oriented. I always seek to achieve my best version regardless of the challenges.
+                  I am a dedicated person who strives to make their dreams come true, hardworking and results-oriented. I always seek to achieve my best version regardless of the challenges.
                   {' '}
                 </p>
 
@@ -294,6 +297,7 @@ const About = ({lenguageEN}) => {
                 My Certifications
               </p>
               <div className={style.certifications_img}>
+                <img src={certintC} alt="certificado C#" />
                 <img src={certintProgramacion} alt="certificado HMTL" />
                 <img src={certHTML} alt="certificado HMTL" />
                 <img src={certSQL} alt="certificado SQL" />
