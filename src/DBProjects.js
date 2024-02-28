@@ -10,9 +10,30 @@ import AdvancePortada from "./Assets/Imagesprojects/ecomerce.png";
 import proceso from "./Assets/Imagesprojects/proceso.png";
 import tecno2 from "./Assets/Imagesprojects/tecno2.png";
 import thercarr from "./Assets/Imagesprojects/Thercarr.png";
+import TabacosLp from "./Assets/Imagesprojects/tabacoslp.png"
 // -------------------------Portadas------------------
 
 const DBProyect = [
+  {
+    title: "TabacosLP",
+    shortDescription:
+      "Sistema de facturacion con preparacion para futuro catálogo público",
+    longDescription:
+      "Sistema de facturacion con utilizacion de codigos de barra ",
+    PortadaProject: TabacosLp,
+    MediaProject: [
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1709139999/portfolio/TabacosLp/qhypfpjm3oagv9cdr7cq.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1709139999/portfolio/TabacosLp/dhaxgwhmtu2mwljptgmj.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1709139999/portfolio/TabacosLp/dhaxgwhmtu2mwljptgmj.png",
+    "  https://res.cloudinary.com/dbu2biawj/image/upload/v1709140000/portfolio/TabacosLp/fk6jh8qj2uu2syza97hm.png"
+    ],
+    videoProject:
+      "https://res.cloudinary.com/dbu2biawj/video/upload/v1709139991/portfolio/TabacosLp/iymbgrxwyxnchet7ac81.mp4",
+    tecnologies: ["•ReactJs", "•CSS", "•NodeJs", "•Express","•MongoDb","•JWT"],
+    deploy: false,
+    linkGitHub: "",
+    linkDeploy: "",
+  },
   {
     title: "Thercarr",
     shortDescription:

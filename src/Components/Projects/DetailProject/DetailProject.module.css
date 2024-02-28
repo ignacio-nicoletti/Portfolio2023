@@ -109,9 +109,10 @@
   display: flex;
   justify-content: space-evenly;
   margin: 1rem;
+  gap:15px
 }
 .carrousel img {
-  width: 23%;
+  width: 25%;
   height: auto;
   border-radius: 10px;
 }
