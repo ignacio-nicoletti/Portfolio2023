@@ -109,7 +109,7 @@
   display: flex;
   justify-content: space-evenly;
   margin: 1rem;
-  gap:15px
+  gap: 15px;
 }
 .carrousel img {
   width: 25%;
@@ -125,16 +125,14 @@
 .tecnologiesAndIconDeploy {
   margin-top: 3rem;
   display: flex;
-  justify-content:space-between;
-  margin-inline:4rem;
-  
+  justify-content: space-between;
+  margin-inline: 4rem;
 }
 
 .tecnologies {
   display: flex;
   gap: 10px;
 }
-
 
 .icondeploy img {
   width: 50px;
@@ -146,7 +144,6 @@
 }
 
 @media only screen and (max-width: 770px) {
-
   .TitleAndVideo h2 {
     font-size: 2rem;
     margin: 0;
@@ -166,10 +163,8 @@
     margin-bottom: 0rem;
   }
 
-  .description{
+  .description {
     padding-bottom: 10px;
-    /* height:max-content; */
-    /* background-color: red; */
   }
 
   .carrousel {
@@ -200,24 +195,25 @@
 
   .tecnologiesAndIconDeploy {
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    flex-direction: row;
+    margin: 0;
+    border-top: #fdcf41 1px solid;
+    align-items: center;
   }
-
+  
   .tecnologies {
+    padding-top: 1rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    border-top: #fdcf41 1px solid;
   }
-  .tecnologies p{
+  .tecnologies p {
     margin-top: 0;
-
   }
   .icondeploy {
+    padding-top: 1rem;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    gap: 10px;
   }
 }
