@@ -10,10 +10,36 @@ import AdvancePortada from "./Assets/Imagesprojects/ecomerce.png";
 import proceso from "./Assets/Imagesprojects/proceso.png";
 import tecno2 from "./Assets/Imagesprojects/tecno2.png";
 import thercarr from "./Assets/Imagesprojects/Thercarr.png";
-import TabacosLp from "./Assets/Imagesprojects/tabacoslp.png"
+import TabacosLp from "./Assets/Imagesprojects/tabacoslp.png";
+import Guijama from "./Assets/Imagesprojects/guijama.jpg";
 // -------------------------Portadas------------------
 
 const DBProyect = [
+  {
+    title: "Guijama",
+    shortDescription: "Sistema de facturacion con catalogo de productos",
+    longDescription:
+      "Sistema de facturacion con utilizacion de codigos de barra,filtrado y exportacion de pdf, adaptado al 100% a celular, funcional y visual",
+    PortadaProject: Guijama,
+    MediaProject: [
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1711373624/portfolio/guijama/jm0wehmamzphy3rhr4jk.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1711373624/portfolio/guijama/uzqvpbwlsat5fip1foss.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1711373623/portfolio/guijama/gim5ubhmsvimjudjso0e.png",
+    ],
+    videoProject:
+      "https://res.cloudinary.com/dbu2biawj/video/upload/v1711373228/portfolio/guijama/r19r1260u0e7zeimjxgu.mp4",
+    tecnologies: [
+      "•ReactJs",
+      "•ReactPDF",
+      "•Quagga",
+      "•NodeJs",
+      "•Express",
+      "•MongoDb",
+    ],
+    deploy: true,
+    linkGitHub: "",
+    linkDeploy: "https://distribuidora-guijama.vercel.app/",
+  },
   {
     title: "TabacosLP",
     shortDescription:
@@ -25,11 +51,18 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1709139999/portfolio/TabacosLp/qhypfpjm3oagv9cdr7cq.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1709139999/portfolio/TabacosLp/dhaxgwhmtu2mwljptgmj.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1709139999/portfolio/TabacosLp/dhaxgwhmtu2mwljptgmj.png",
-    "  https://res.cloudinary.com/dbu2biawj/image/upload/v1709140000/portfolio/TabacosLp/fk6jh8qj2uu2syza97hm.png"
+      "  https://res.cloudinary.com/dbu2biawj/image/upload/v1709140000/portfolio/TabacosLp/fk6jh8qj2uu2syza97hm.png",
     ],
     videoProject:
       "https://res.cloudinary.com/dbu2biawj/video/upload/v1709139991/portfolio/TabacosLp/iymbgrxwyxnchet7ac81.mp4",
-    tecnologies: ["•ReactJs", "•CSS", "•NodeJs", "•Express","•MongoDb","•JWT"],
+    tecnologies: [
+      "•ReactJs",
+      "•CSS",
+      "•NodeJs",
+      "•Express",
+      "•MongoDb",
+      "•JWT",
+    ],
     deploy: false,
     linkGitHub: "",
     linkDeploy: "",
