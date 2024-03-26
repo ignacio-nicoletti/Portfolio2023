@@ -38,9 +38,10 @@ import certHenry from '../../Assets/certifications/certificado-henry.png';
 import certcode from '../../Assets/certifications/certificado.jpg';
 import certHTML from '../../Assets/certifications/HTML_educacionIT.png';
 import certfintC
-  from '../../Assets/certifications/Certificado-Introducción-a-Csharp.png';
+from '../../Assets/certifications/Certificado-Introducción-a-Csharp.png';
 import certintProgramacion
-  from '../../Assets/certifications/Certificado-Introducción-a-la-Programación.png';
+from '../../Assets/certifications/Certificado-Introducción-a-la-Programación.png';
+import certResponsive from '../../Assets/certifications/responsive design.png';
 const About = ({lenguageEN}) => {
   return (
     <div>
@@ -79,6 +80,7 @@ const About = ({lenguageEN}) => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="3000"
               >
+                <img src={certResponsive} alt="Responsive-design" />
                 <img src={certfintC} alt="certificado C#" />
                 <img src={certintProgramacion} alt="certificado HMTL" />
                 <img src={certHTML} alt="certificado HMTL" />
@@ -348,6 +350,7 @@ const About = ({lenguageEN}) => {
                 My Certifications
               </p>
               <div className={style.certifications_img}>
+              <img src={certResponsive} alt="Responsive-design" />
                 <img src={certfintC} alt="certificado C#" />
                 <img src={certintProgramacion} alt="certificado HMTL" />
                 <img src={certHTML} alt="certificado HMTL" />
