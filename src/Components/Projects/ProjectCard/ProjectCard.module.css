@@ -38,6 +38,7 @@
 .imageProject img {
   border-radius: 10px;
   width: 100%;
+  object-fit:fill 
 }
 
 .iconsDeploy {

@@ -17,9 +17,9 @@ import Guijama from "./Assets/Imagesprojects/guijama.jpg";
 const DBProyect = [
   {
     title: "Guijama",
-    shortDescription: "Sistema de facturacion con catalogo de productos",
+    shortDescription: "Sistema de facturacion con catalogo de productos.",
     longDescription:
-      "Sistema de facturacion con utilizacion de codigos de barra,filtrado y exportacion de pdf, adaptado al 100% a celular, funcional y visual",
+      "Sistema de facturacion con utilizacion de codigos de barra,filtrado y exportacion de pdf, adaptado al 100% a celular, funcional y visual.",
     PortadaProject: Guijama,
     MediaProject: [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1711373624/portfolio/guijama/jm0wehmamzphy3rhr4jk.png",
@@ -43,9 +43,9 @@ const DBProyect = [
   {
     title: "TabacosLP",
     shortDescription:
-      "Sistema de facturacion con preparacion para futuro catálogo público",
+      "Sistema de facturacion con preparacion para futuro catálogo público.",
     longDescription:
-      "Sistema de facturacion con utilizacion de codigos de barra ",
+      "Sistema de facturacion con utilizacion de codigos de barra.",
     PortadaProject: TabacosLp,
     MediaProject: [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1709139999/portfolio/TabacosLp/qhypfpjm3oagv9cdr7cq.png",

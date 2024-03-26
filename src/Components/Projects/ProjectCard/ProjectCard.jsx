@@ -10,8 +10,6 @@ const ProjectCard = ({
   deploy,
   linkDeploy,
   linkGithub,
-  modalActive,
-  setModalActive,
   handleModalActive,
   index
 }) => {
