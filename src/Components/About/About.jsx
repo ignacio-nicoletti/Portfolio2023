@@ -42,6 +42,8 @@ import certfintC
 import certintProgramacion
   from '../../Assets/certifications/Certificado-Introducción-a-la-Programación.png';
 import certResponsive from '../../Assets/certifications/responsive design.png';
+import typescriptPlatzi
+  from '../../Assets/certifications/typescript-platzi.png';
 import certTypescript
   from '../../Assets/certifications/certfificado-typescript_microsoft.png';
 const About = ({lenguageEN}) => {
@@ -82,7 +84,11 @@ const About = ({lenguageEN}) => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="3000"
               >
-                <img src={certTypescript} alt="certificado typescript" />
+                <img
+                  src={certtypescriptPlatzi}
+                  alt="certificado typescript-platzi"
+                />
+                <img src={typescriptPlatzi} alt="cert typescript-platzi" />
                 <img src={certResponsive} alt="Responsive-design" />
                 <img src={certfintC} alt="certificado C#" />
                 <img src={certintProgramacion} alt="certificado HMTL" />
@@ -354,6 +360,7 @@ const About = ({lenguageEN}) => {
               </p>
               <div className={style.certifications_img}>
 
+                <img src={typescriptPlatzi} alt="cert typescript-platzi" />
                 <img src={certTypescript} alt="certificado typescript" />
                 <img src={certResponsive} alt="Responsive-design" />
                 <img src={certfintC} alt="certificado C#" />
