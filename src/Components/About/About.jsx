@@ -85,7 +85,7 @@ const About = ({lenguageEN}) => {
                 data-aos-duration="3000"
               >
                 <img
-                  src={certtypescriptPlatzi}
+                  src={typescriptPlatzi}
                   alt="certificado typescript-platzi"
                 />
                 <img src={typescriptPlatzi} alt="cert typescript-platzi" />
