@@ -88,7 +88,7 @@ const About = ({lenguageEN}) => {
                   src={typescriptPlatzi}
                   alt="certificado typescript-platzi"
                 />
-                <img src={typescriptPlatzi} alt="cert typescript-platzi" />
+                <img src={certTypescript} alt="cert typescriptmicrosoft" />
                 <img src={certResponsive} alt="Responsive-design" />
                 <img src={certfintC} alt="certificado C#" />
                 <img src={certintProgramacion} alt="certificado HMTL" />
