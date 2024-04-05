@@ -2,22 +2,22 @@ import style from './About.module.css';
 import imageProfile from '../../Assets/nacho.png';
 
 import react from '../../Assets/tecnologiasSVG/frontend/react-icon.svg';
-import html from '../../Assets/tecnologiasSVG/frontend/html-icon.svg';
+// import html from '../../Assets/tecnologiasSVG/frontend/html-icon.svg';
+// import axios from '../../Assets/tecnologiasSVG/frontend/axios.png';
 import css from '../../Assets/tecnologiasSVG/frontend/css-icon.svg';
 import redux from '../../Assets/tecnologiasSVG/frontend/redux-icon.svg';
 import typescript from '../../Assets/tecnologiasSVG/frontend/type.png';
 import javascript from '../../Assets/tecnologiasSVG/frontend/javas.png';
 import nextjs from '../../Assets/tecnologiasSVG/frontend/nextjs.png';
-import axios from '../../Assets/tecnologiasSVG/frontend/axios.png';
 import csharp from '../../Assets/tecnologiasSVG/frontend/Csharp.svg';
 
 import nodeJs from '../../Assets/tecnologiasSVG/backend/node-icon.svg';
 import express from '../../Assets/tecnologiasSVG/backend/express-icon.svg';
-import mongoose from '../../Assets/tecnologiasSVG/backend/Mongoose.svg';
+// import mongoose from '../../Assets/tecnologiasSVG/backend/Mongoose.svg';
 import JWT from '../../Assets/tecnologiasSVG/backend/JWT.svg';
 import Bcrypt from '../../Assets/tecnologiasSVG/backend/Bcrypt.svg';
 import NodeEmailer from '../../Assets/tecnologiasSVG/backend/NodeEmailer.svg';
-import sequelize from '../../Assets/tecnologiasSVG/backend/Sequelize.svg';
+// import sequelize from '../../Assets/tecnologiasSVG/backend/Sequelize.svg';
 import Net from '../../Assets/tecnologiasSVG/backend/net.svg';
 
 import mongoDb from '../../Assets/tecnologiasSVG/database/mongodb-icons.svg';
@@ -28,7 +28,7 @@ import sqlserver from '../../Assets/tecnologiasSVG/database/SQLserver.svg';
 
 import canva from '../../Assets/tecnologiasSVG/design/canva.svg';
 import figma from '../../Assets/tecnologiasSVG/design/figma.svg';
-import photoshop from '../../Assets/tecnologiasSVG/design/photoshop.svg';
+// import photoshop from '../../Assets/tecnologiasSVG/design/photoshop.svg';
 import marvelApp from '../../Assets/tecnologiasSVG/design/marvelApp.svg';
 import adobeXd from '../../Assets/tecnologiasSVG/design/adobeXd.svg';
 
@@ -114,7 +114,10 @@ const About = ({lenguageEN}) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={html} alt="HTML" />
+                      <img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+                        alt="HTML"
+                      />
                     </a>
 
                     <a
@@ -173,7 +176,12 @@ const About = ({lenguageEN}) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={axios} alt="Axios" />
+                      <img
+                        src={
+                          'https://raw.githubusercontent.com/devicons/devicon/master/icons/axios/axios-plain.svg'
+                        }
+                        alt="Axios"
+                      />
                     </a>
 
                   </div>
@@ -202,14 +210,24 @@ const About = ({lenguageEN}) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={mongoose} alt="Mongoose" />
+                      <img
+                        src={
+                          'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongoose/mongoose-original.svg'
+                        }
+                        alt="Mongoose"
+                      />
                     </a>
                     <a
                       href="https://sequelize.org/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={sequelize} alt="Sequelize" />
+                      <img
+                        src={
+                          'https://raw.githubusercontent.com/devicons/devicon/master/icons/sequelize/sequelize-original.svg'
+                        }
+                        alt="Sequelize"
+                      />
                     </a>
                     <a
                       href="https://jwt.io/"
@@ -307,7 +325,12 @@ const About = ({lenguageEN}) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={photoshop} alt="photoshop" />
+                      <img
+                        src={
+                          'https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-original.svg'
+                        }
+                        alt="photoshop"
+                      />
                     </a>
                     <a
                       href="https://marvelapp.com/"
@@ -386,7 +409,10 @@ const About = ({lenguageEN}) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={html} alt="HTML" />
+                      <img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+                        alt="HTML"
+                      />
                     </a>
 
                     <a
@@ -445,7 +471,12 @@ const About = ({lenguageEN}) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={axios} alt="Axios" />
+                      <img
+                        src={
+                          'https://raw.githubusercontent.com/devicons/devicon/master/icons/axios/axios-plain.svg'
+                        }
+                        alt="Axios"
+                      />
                     </a>
 
                   </div>
@@ -474,14 +505,24 @@ const About = ({lenguageEN}) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={mongoose} alt="Mongoose" />
+                      <img
+                        src={
+                          'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongoose/mongoose-original.svg'
+                        }
+                        alt="Mongoose"
+                      />
                     </a>
                     <a
                       href="https://sequelize.org/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={sequelize} alt="Sequelize" />
+                      <img
+                        src={
+                          'https://raw.githubusercontent.com/devicons/devicon/master/icons/sequelize/sequelize-original.svg'
+                        }
+                        alt="Sequelize"
+                      />
                     </a>
                     <a
                       href="https://jwt.io/"
@@ -516,7 +557,7 @@ const About = ({lenguageEN}) => {
                 </div>
 
                 <div className={style.tecnologies}>
-                  <h3>Database</h3>
+                  <h3>Base de Datos</h3>
                   <div className={style.iconTecnologies}>
                     <a
                       href="https://www.mongodb.com/es"
@@ -557,7 +598,7 @@ const About = ({lenguageEN}) => {
                   </div>
                 </div>
                 <div className={style.tecnologies}>
-                  <h3>Design</h3>
+                  <h3>Diseño</h3>
                   <div className={style.iconTecnologies}>
                     <a
                       href="https://www.canva.com/"
@@ -579,7 +620,12 @@ const About = ({lenguageEN}) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={photoshop} alt="photoshop" />
+                      <img
+                        src={
+                          'https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-original.svg'
+                        }
+                        alt="photoshop"
+                      />
                     </a>
                     <a
                       href="https://marvelapp.com/"
