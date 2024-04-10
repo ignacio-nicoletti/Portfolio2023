@@ -27,7 +27,7 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1712758973/portfolio/GastosApp/o4infb6pcqb46ucsmthg.png",
     ],
     videoProject:
-      "https://res.cloudinary.com/dbu2biawj/video/upload/v1711373228/portfolio/guijama/r19r1260u0e7zeimjxgu.mp4",
+      "",
     tecnologies: [
       "•ReactJs",
       "•React-native",
