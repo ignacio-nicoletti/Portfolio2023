@@ -46,6 +46,7 @@ import typescriptPlatzi
   from '../../Assets/certifications/typescript-platzi.png';
 import certTypescript
   from '../../Assets/certifications/certfificado-typescript_microsoft.png';
+import certnative from '../../Assets/certifications/react-native.jpg';
 const About = ({lenguageEN}) => {
   return (
     <div>
@@ -88,6 +89,7 @@ const About = ({lenguageEN}) => {
                   src={typescriptPlatzi}
                   alt="certificado typescript-platzi"
                 />
+                <img src={certnative} alt="cert nativemobile" />
                 <img src={certTypescript} alt="cert typescriptmicrosoft" />
                 <img src={certResponsive} alt="Responsive-design" />
                 <img src={certfintC} alt="certificado C#" />
@@ -382,7 +384,7 @@ const About = ({lenguageEN}) => {
                 My Certifications
               </p>
               <div className={style.certifications_img}>
-
+              <img src={certnative} alt="cert nativemobile" />
                 <img src={typescriptPlatzi} alt="cert typescript-platzi" />
                 <img src={certTypescript} alt="certificado typescript" />
                 <img src={certResponsive} alt="Responsive-design" />

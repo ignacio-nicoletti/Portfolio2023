@@ -16,6 +16,30 @@ import Guijama from "./Assets/Imagesprojects/guijama.jpg";
 
 const DBProyect = [
   {
+    title: "Planificador de gastos",
+    shortDescription: "App mobile para ver nuestros gastos.",
+    longDescription:
+      "App mobile que permite agregar un presupuesto y luego ir agregando gastos con detalles del mismo.",
+    PortadaProject: "https://res.cloudinary.com/dbu2biawj/image/upload/v1712758971/portfolio/GastosApp/t9qgv6jxtbxqry5pb7f2.png",
+    MediaProject: [
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1712758972/portfolio/GastosApp/dyqqwpch8q5i6uipakhy.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1712758971/portfolio/GastosApp/cfdemrzxugcqcc4efwti.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1712758973/portfolio/GastosApp/o4infb6pcqb46ucsmthg.png",
+    ],
+    videoProject:
+      "https://res.cloudinary.com/dbu2biawj/video/upload/v1711373228/portfolio/guijama/r19r1260u0e7zeimjxgu.mp4",
+    tecnologies: [
+      "•ReactJs",
+      "•React-native",
+      "•React-native-circular-progress-indicator",
+      "•React-native-picker",
+      "•typescript",
+    ],
+    deploy: false,
+    linkGitHub: "https://github.com/ignacio-nicoletti/PlanGastosNative",
+    linkDeploy: "",
+  },
+  {
     title: "Guijama",
     shortDescription: "Sistema de facturacion con catalogo de productos.",
     longDescription:
