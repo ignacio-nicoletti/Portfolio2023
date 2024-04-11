@@ -85,11 +85,11 @@ const About = ({lenguageEN}) => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="3000"
               >
+                <img src={certnative} alt="cert nativemobile" />
                 <img
                   src={typescriptPlatzi}
                   alt="certificado typescript-platzi"
                 />
-                <img src={certnative} alt="cert nativemobile" />
                 <img src={certTypescript} alt="cert typescriptmicrosoft" />
                 <img src={certResponsive} alt="Responsive-design" />
                 <img src={certfintC} alt="certificado C#" />
@@ -384,7 +384,7 @@ const About = ({lenguageEN}) => {
                 My Certifications
               </p>
               <div className={style.certifications_img}>
-              <img src={certnative} alt="cert nativemobile" />
+                <img src={certnative} alt="cert nativemobile" />
                 <img src={typescriptPlatzi} alt="cert typescript-platzi" />
                 <img src={certTypescript} alt="certificado typescript" />
                 <img src={certResponsive} alt="Responsive-design" />
