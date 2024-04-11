@@ -31,9 +31,9 @@ const DBProyect = [
     tecnologies: [
       "•ReactJs",
       "•React-native",
-      "•React-native-circular-progress-indicator",
-      "•React-native-picker",
-      "•typescript",
+      "•Reanimated",
+      "•Typescript",
+      "•Picker",
     ],
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/PlanGastosNative",
