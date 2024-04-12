@@ -97,7 +97,7 @@ const Navbar = ({setLenguageEN, lenguageEN}) => {
                   <p>Contacto</p>
                 </a>
 
-                <a href={CurriculumEN} className={style.buttonCV}>
+                <a href={CurriculumES} className={style.buttonCV}>
                   CV
                 </a>
               </div>
@@ -141,7 +141,7 @@ const Navbar = ({setLenguageEN, lenguageEN}) => {
                   <p>Contact</p>
                 </a>
 
-                <a href={CurriculumES} className={style.buttonCV}>
+                <a href={CurriculumEN} className={style.buttonCV}>
                   CV
                 </a>
               </div>
