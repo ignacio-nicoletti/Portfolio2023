@@ -94,12 +94,10 @@
   border: none;
   cursor: pointer;
   width: 10%;
-  height: 100%; /* Ajusta el tamaño de los botones según sea necesario */
+  height: 100%;
   position: absolute;
-  top: 50%; /* Coloca los botones en el centro vertical */
-  transform: translateY(
-    -50%
-  ); /* Ajusta la posición vertical para que estén centrados */
+  top: 50%;
+  transform: translateY(-50%);
   background-color: #25374681;
 }
 
@@ -167,7 +165,6 @@
   .certCarrousel img {
     width: 100%;
     height: auto;
-    max-width: 400px; /* Ajusta el ancho máximo de la imagen según sea necesario */
   }
 
   .prev_btn,
@@ -181,7 +178,7 @@
     transform: translateY(-50%);
     background-color: #25374681;
     color: white;
-    font-size: 20px;
+    /* font-size: 20px; */
   }
 
   .prev_btn {
