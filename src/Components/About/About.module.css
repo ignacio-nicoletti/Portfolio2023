@@ -94,7 +94,7 @@
 .next_btn {
   border: none;
   cursor: pointer;
-  width: 30px;
+  width: 10%;
   height: 100%; /* Ajusta el tamaño de los botones según sea necesario */
   position: absolute;
   top: 50%; /* Coloca los botones en el centro vertical */
@@ -175,7 +175,7 @@
 .next_btn {
     border: none;
     cursor: pointer;
-    width: 30px;
+    width: 10%;
     height: 100%;
     position: absolute;
     top: 50%;
