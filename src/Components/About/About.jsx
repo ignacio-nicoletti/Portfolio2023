@@ -106,9 +106,21 @@ const About = ({lenguageEN}) => {
               >
 
                 <div className={style.certCarrousel}>
-                  <button className={style.prev_btn} onClick={()=>setImageIndex(imageIndex-1)} disabled={imageIndex<=0}>◀️</button>
+                  <button
+                    className={style.prev_btn}
+                    onClick={() => setImageIndex (imageIndex - 1)}
+                    disabled={imageIndex <= 0}
+                  >
+                    ◀️
+                  </button>
                   <img src={arrayImage[imageIndex]} alt="cert_basicosql" />
-                  <button className={style.next_btn} onClick={()=>setImageIndex(imageIndex+1)}disabled={imageIndex>=4}>▶️</button>
+                  <button
+                    className={style.next_btn}
+                    onClick={() => setImageIndex (imageIndex + 1)}
+                    disabled={imageIndex >= 4}
+                  >
+                    ▶️
+                  </button>
                 </div>
 
                 <img src={certnative} alt="cert nativemobile" />
