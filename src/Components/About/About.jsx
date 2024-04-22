@@ -113,7 +113,10 @@ const About = ({lenguageEN}) => {
                   >
                     ◀️
                   </button>
-                  <img src={arrayImage[imageIndex]} alt="cert_basicosql" />
+                  <img
+                    src={arrayImage[imageIndex]}
+                    alt={`${arrayImage[imageIndex]} `}
+                  />
                   <button
                     className={style.next_btn}
                     onClick={() => setImageIndex (imageIndex + 1)}
@@ -420,7 +423,34 @@ const About = ({lenguageEN}) => {
               <p className={style.title}>
                 My Certifications
               </p>
-              <div className={style.certifications_img}>
+
+              <div
+                className={style.certifications_img}
+                data-aos="zoom-out"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000"
+              >
+
+                <div className={style.certCarrousel}>
+                  <button
+                    className={style.prev_btn}
+                    onClick={() => setImageIndex (imageIndex - 1)}
+                    disabled={imageIndex <= 0}
+                  >
+                    ◀️
+                  </button>
+                  <img
+                    src={arrayImage[imageIndex]}
+                    alt={`${arrayImage[imageIndex]} `}
+                  />
+                  <button
+                    className={style.next_btn}
+                    onClick={() => setImageIndex (imageIndex + 1)}
+                    disabled={imageIndex >= 4}
+                  >
+                    ▶️
+                  </button>
+                </div>
                 <img src={certnative} alt="cert nativemobile" />
                 <img src={typescriptPlatzi} alt="cert typescript-platzi" />
                 <img src={certTypescript} alt="certificado typescript" />
