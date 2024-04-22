@@ -2,8 +2,7 @@ import style from './About.module.css';
 import imageProfile from '../../Assets/nacho.png';
 
 import react from '../../Assets/tecnologiasSVG/frontend/react-icon.svg';
-// import html from '../../Assets/tecnologiasSVG/frontend/html-icon.svg';
-// import axios from '../../Assets/tecnologiasSVG/frontend/axios.png';
+
 import css from '../../Assets/tecnologiasSVG/frontend/css-icon.svg';
 import redux from '../../Assets/tecnologiasSVG/frontend/redux-icon.svg';
 import typescript from '../../Assets/tecnologiasSVG/frontend/type.png';
@@ -47,7 +46,27 @@ import typescriptPlatzi
 import certTypescript
   from '../../Assets/certifications/certfificado-typescript_microsoft.png';
 import certnative from '../../Assets/certifications/react-native.jpg';
+
+import cert_basicosql from '../../Assets/certifications/sql/basicosql.png';
+import cert_combinacionysubconsulta
+  from '../../Assets/certifications/sql/combinacionysubconsulta.png';
+import cert_datosagrupados
+  from '../../Assets/certifications/sql/datosagrupados.png';
+import cert_ins_upd_del from '../../Assets/certifications/sql/ins,upd,del.png';
+import cert_tablasfundamentos
+  from '../../Assets/certifications/sql/tablas y fundamentos.png';
+import {useState} from 'react';
+
 const About = ({lenguageEN}) => {
+  const [imageIndex, setImageIndex] = useState (0);
+
+  let arrayImage = [
+    cert_basicosql,
+    cert_combinacionysubconsulta,
+    cert_datosagrupados,
+    cert_ins_upd_del,
+    cert_tablasfundamentos,
+  ];
   return (
     <div>
 
@@ -85,6 +104,13 @@ const About = ({lenguageEN}) => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="3000"
               >
+
+                <div className={style.certCarrousel}>
+                  <button className={style.prev_btn} onClick={()=>setImageIndex(imageIndex-1)} disabled={imageIndex<=0}>◀️</button>
+                  <img src={arrayImage[imageIndex]} alt="cert_basicosql" />
+                  <button className={style.next_btn} onClick={()=>setImageIndex(imageIndex+1)}disabled={imageIndex>=4}>▶️</button>
+                </div>
+
                 <img src={certnative} alt="cert nativemobile" />
                 <img
                   src={typescriptPlatzi}
@@ -108,7 +134,6 @@ const About = ({lenguageEN}) => {
               <div className={style.grilla}>
 
                 <div className={style.tecnologies}>
-
                   <h3>Frontend</h3>
                   <div className={style.iconTecnologies}>
                     <a

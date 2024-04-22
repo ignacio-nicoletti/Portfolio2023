@@ -30,14 +30,12 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
 }
 .certifications_img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-
 }
 .certifications_img img {
   width: 500px;
@@ -79,6 +77,40 @@
   height: 80px;
 }
 
+
+.certCarrousel {
+  display: flex;
+  position: relative; /* Añade posición relativa al contenedor */
+  width: 500px;
+}
+
+.certCarrousel img {
+  width: 500px;
+  height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+  display: block; /* Asegura que la imagen se muestre como un bloque */
+}
+
+.prev_btn,
+.next_btn {
+  border: none;
+  cursor: pointer;
+  width: 30px;
+  height: 100%; /* Ajusta el tamaño de los botones según sea necesario */
+  position: absolute;
+  top: 50%; /* Coloca los botones en el centro vertical */
+  transform: translateY(-50%); /* Ajusta la posición vertical para que estén centrados */
+  background-color: #25374681;
+}
+
+.prev_btn {
+  left: 0; /* Ajusta la posición izquierda del botón prev */
+}
+
+.next_btn {
+  right: 0; /* Ajusta la posición derecha del botón next */
+}
+
+
 @media only screen and (max-width: 770px) {
   .textAndImage {
     display: flex;
@@ -110,9 +142,55 @@
     height: 50px;
   }
 
+  .certifications_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
   .certifications_img img {
     border-radius: 10px;
     width: 400px;
     height: 400px;
   }
+
+
+  .certCarrousel {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.certCarrousel img {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Ajusta el ancho máximo de la imagen según sea necesario */
+}
+
+.prev_btn,
+.next_btn {
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #25374681;
+    color: white;
+    font-size: 20px;
+}
+
+.prev_btn {
+    left: 0;
+}
+
+.next_btn {
+    right: 0;
+}
+
 }
