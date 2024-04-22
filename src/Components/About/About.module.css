@@ -166,7 +166,7 @@
 }
 
 .certCarrousel img {
-    /* width: 100%; */
+    width: 100%;
     height: auto;
     max-width: 400px; /* Ajusta el ancho máximo de la imagen según sea necesario */
 }
