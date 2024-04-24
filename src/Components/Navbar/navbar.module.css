@@ -130,6 +130,7 @@
     background-color: #25374681;
     backdrop-filter: blur(10px);
     z-index: 1;
+    top:0
   }
   .options {
     display: flex;

@@ -25,6 +25,8 @@ import cert_datosagrupados
 import cert_ins_upd_del from '../../Assets/certifications/sql/ins,upd,del.png';
 import cert_tablasfundamentos
   from '../../Assets/certifications/sql/tablas y fundamentos.png';
+import cert_fundaula_intProg
+  from '../../Assets/certifications/fundaula_intProg.png';
 
 const CertificationPage = ({lenguageEN}) => {
   const [imageIndex, setImageIndex] = useState (0);
@@ -72,6 +74,7 @@ const CertificationPage = ({lenguageEN}) => {
           <img src={typescriptPlatzi} alt="certificado typescript-platzi" />
           <img src={certTypescript} alt="cert typescriptmicrosoft" />
           <img src={certResponsive} alt="Responsive-design" />
+          <img src={cert_fundaula_intProg} alt="cert_fundaula_intProg" />
           <img src={certfintC} alt="certificado C#" />
           <img src={certintProgramacion} alt="certificado HMTL" />
           <img src={certHTML} alt="certificado HMTL" />
