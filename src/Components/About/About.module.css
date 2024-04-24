@@ -1,5 +1,5 @@
 .contain {
-  color: white;
+  color: #fdcf41;
   margin-top: 5%;
   margin-bottom: 3rem;
 }
@@ -9,11 +9,17 @@
   color: #fdcf41;
 }
 
+.description {
+  width: 600px;
+  text-align: justify;
+  font-size: 1.1rem;
+}
 .textAndImage {
   display: flex;
   justify-content: center;
   gap: 15px;
   margin-bottom: 3rem;
+  align-items: center;
 }
 
 .text {
@@ -25,21 +31,46 @@
   width: 300px;
 }
 
-.certifications {
+.contact {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-.certifications_img {
+.ContainSocial {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+  justify-content: space-evenly;
 }
-.certifications_img img {
-  width: 500px;
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.iconAndText {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.iconAndText a{
+  text-decoration: none;
+  color: #fdcf41;
+}
+
+.textContact {
+  display: inline; /* Muestra el texto inicialmente */
+  border: 5px solid #fdcf41;
   border-radius: 10px;
+  width: 100px;
+  background-color: black;
+  opacity: 0; /* Establece la opacidad inicialmente en 0 */
+  transition: opacity 1s; /* Aplica la transición solo a la propiedad de opacidad */
+}
+
+.iconAndText:hover .textContact {
+  opacity: 1; /* Cambia la opacidad al 100% cuando se hace hover */
+  transition: opacity 1s;
 }
 
 .ability {
@@ -50,66 +81,12 @@
   color: #fdcf41;
 }
 
-.grilla {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5rem;
-  justify-content: center;
-  align-items: flex-start;
-}
-.tecnologies {
-  display: flex;
-  width: 20rem;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.iconTecnologies {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.tecnologies img {
-  width: 80px;
-  height: 80px;
-}
-
-.certCarrousel {
-  display: flex;
-  position: relative; /* Añade posición relativa al contenedor */
-  width: 500px;
-}
-
-.certCarrousel img {
-  width: 500px;
-  height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
-  display: block; /* Asegura que la imagen se muestre como un bloque */
-}
-
-.prev_btn,
-.next_btn {
-  border: none;
-  cursor: pointer;
-  width: 10%;
-  height: 100%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: #25374681;
-}
-
-.prev_btn {
-  left: 0; /* Ajusta la posición izquierda del botón prev */
-}
-
-.next_btn {
-  right: 0; /* Ajusta la posición derecha del botón next */
-}
-
 @media only screen and (max-width: 770px) {
+  .description {
+    width: 100%;
+    font-size: 1rem;
+  }
+
   .textAndImage {
     display: flex;
     flex-direction: column;
@@ -122,70 +99,16 @@
     width: 100%;
   }
 
-  .grilla {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-inline: 20%;
-  }
-
-  .iconTecnologies {
-    width: 350px;
-    display: flex;
+  .ContainSocial {
     flex-wrap: wrap;
-    gap: 10px;
   }
-  .tecnologies img {
-    width: 50px;
-    height: 50px;
+  .textContact {
+    display: inline;
+    opacity: 1;
   }
-
-  .certifications_img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    padding: 1rem;
-  }
-
-  .certifications_img img {
-    border-radius: 10px;
-    width: 100%;
-    height: auto;
-  }
-
-  .certCarrousel {
-    position: relative;
-    width: 100%;
-    display: flex;
+  .iconAndText {
     flex-direction: column;
-    align-items: center;
-  }
 
-  .certCarrousel img {
-    width: 100%;
-    height: auto;
-  }
-
-  .prev_btn,
-  .next_btn {
-    border: none;
-    cursor: pointer;
-    width: 10%;
-    height: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #25374681;
-    color: white;
-    /* font-size: 20px; */
-  }
-
-  .prev_btn {
-    left: 0;
-  }
-
-  .next_btn {
-    right: 0;
+    margin: 0rem;
   }
 }

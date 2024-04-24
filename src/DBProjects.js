@@ -20,7 +20,7 @@ const DBProyect = [
     shortDescription: "App mobile para ver nuestros gastos.",
     longDescription:
       "App mobile que permite agregar un presupuesto y luego ir agregando gastos con detalles del mismo.",
-    PortadaProject: "https://res.cloudinary.com/dbu2biawj/image/upload/v1713811531/portfolio/GastosApp/o4infb6pcqb46ucsmthg.png",
+    PortadaProject: "https://res.cloudinary.com/dbu2biawj/image/upload/v1713811907/portfolio/GastosApp/o4infb6pcqb46ucsmthg.png",
     MediaProject: [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1712758972/portfolio/GastosApp/dyqqwpch8q5i6uipakhy.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1712758971/portfolio/GastosApp/cfdemrzxugcqcc4efwti.png",

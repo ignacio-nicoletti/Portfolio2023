@@ -3,8 +3,9 @@
   justify-content: space-between;
   align-items: center;
   height: 10vh;
-  background-color: #fdce41ce;
+  background-color: #0000009b;
   padding-inline: 3rem;
+  color: #fdcf41;
 }
 
 .logo {
@@ -12,8 +13,8 @@
 }
 .logo a {
   text-decoration: none;
-  color: black;
   font-size: 1.5rem;
+  color: #fdcf41;
 }
 
 .centerFooter {
