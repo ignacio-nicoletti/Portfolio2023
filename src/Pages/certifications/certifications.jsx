@@ -28,20 +28,40 @@ import cert_tablasfundamentos
 import cert_fundaula_intProg
   from '../../Assets/certifications/fundaula_intProg.png';
 
-const CertificationPage = ({lenguageEN}) => {
-  const [imageIndex, setImageIndex] = useState (0);
+import fundamentos
+  from '../../Assets/certifications/Jsinteractivo/fundamentos.png';
+import flujoJs from '../../Assets/certifications/Jsinteractivo/js_flujo.png';
+import arreglosJS from '../../Assets/certifications/Jsinteractivo/arreglos.png';
+import ciclos from '../../Assets/certifications/Jsinteractivo/ciclosJS.png';
+import tipo_datos
+  from '../../Assets/certifications/Jsinteractivo/tipos_datos_js.png';
+import stringsJs from '../../Assets/certifications/Jsinteractivo/stringjs.png';
 
-  let arrayImage = [
+const CertificationPage = ({lenguageEN}) => {
+  const [imageIndexSQL, setImageIndexSQL] = useState (0);
+  const [imageIndexJs, setImageIndexJs] = useState (0);
+
+  let arrayImageSQL = [
     cert_basicosql,
     cert_combinacionysubconsulta,
     cert_datosagrupados,
     cert_ins_upd_del,
     cert_tablasfundamentos,
   ];
+  let arrayImageJS = [
+    fundamentos,
+    flujoJs,
+    arreglosJS,
+    ciclos,
+    tipo_datos,
+    stringsJs,
+  ];
   return (
     <div className={style.containCert}>
       <div className={style.certifications}>
-        <p className={style.title}>{lenguageEN?"My certifications":"Mis certificados"}</p>
+        <p className={style.title}>
+          {lenguageEN ? 'My certifications' : 'Mis certificados'}
+        </p>
         <div
           className={style.certifications_img}
           data-aos="zoom-out"
@@ -52,19 +72,40 @@ const CertificationPage = ({lenguageEN}) => {
           <div className={style.certCarrousel}>
             <button
               className={style.prev_btn}
-              onClick={() => setImageIndex (imageIndex - 1)}
-              disabled={imageIndex <= 0}
+              onClick={() => setImageIndexJs (imageIndexJs - 1)}
+              disabled={imageIndexJs <= 0}
             >
               ◀️
             </button>
             <img
-              src={arrayImage[imageIndex]}
-              alt={`${arrayImage[imageIndex]} `}
+              src={arrayImageJS[imageIndexJs]}
+              alt={`${arrayImageJS[imageIndexJs]} `}
             />
             <button
               className={style.next_btn}
-              onClick={() => setImageIndex (imageIndex + 1)}
-              disabled={imageIndex >= 4}
+              onClick={() => setImageIndexJs (imageIndexJs + 1)}
+              disabled={imageIndexJs >= 5}
+            >
+              ▶️
+            </button>
+          </div>
+
+          <div className={style.certCarrousel}>
+            <button
+              className={style.prev_btn}
+              onClick={() => setImageIndexSQL (imageIndexSQL - 1)}
+              disabled={imageIndexSQL <= 0}
+            >
+              ◀️
+            </button>
+            <img
+              src={arrayImageSQL[imageIndexSQL]}
+              alt={`${arrayImageSQL[imageIndexSQL]} `}
+            />
+            <button
+              className={style.next_btn}
+              onClick={() => setImageIndexSQL (imageIndexSQL + 1)}
+              disabled={imageIndexSQL >= 4}
             >
               ▶️
             </button>

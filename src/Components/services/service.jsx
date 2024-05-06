@@ -8,10 +8,16 @@ const Services = ({lenguageEN}) => {
   return (
     <div className={style.ContainServices}>
 
-      <p className={style.titleService}>{lenguageEN ? 'Services' : 'Servicios'}</p>
+      <p className={style.titleService}>
+        {lenguageEN ? 'Services' : 'Servicios'}
+      </p>
       <div className={style.ContainCardsServices}>
         {data.services.map (service => (
-          <div className={style.cardContain}>
+          <div
+            className={style.cardContain}
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <div className={style.icon}>
               {service.icon}
             </div>
