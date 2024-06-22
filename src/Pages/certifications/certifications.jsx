@@ -36,6 +36,9 @@ import ciclos from '../../Assets/certifications/Jsinteractivo/ciclosJS.png';
 import tipo_datos
   from '../../Assets/certifications/Jsinteractivo/tipos_datos_js.png';
 import stringsJs from '../../Assets/certifications/Jsinteractivo/stringjs.png';
+import certMongo from '../../Assets/certifications/cerificado_mongodb.png';
+import fundamentosNode
+  from '../../Assets/certifications/certificado-fundamentos_node.png';
 
 const CertificationPage = ({lenguageEN}) => {
   const [imageIndexSQL, setImageIndexSQL] = useState (0);
@@ -68,6 +71,8 @@ const CertificationPage = ({lenguageEN}) => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="3000"
         >
+          <img src={fundamentosNode} alt="cert fundamentos_node" />
+          <img src={certMongo} alt="cert mongoDb" />
 
           <div className={style.certCarrousel}>
             <button
